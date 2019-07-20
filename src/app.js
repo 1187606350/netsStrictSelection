@@ -1,3 +1,4 @@
+import "./assets/lib/hotcss.js"
 export const dva = {
   config: {
     onError(err) {

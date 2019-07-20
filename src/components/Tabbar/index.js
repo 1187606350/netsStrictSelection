@@ -8,25 +8,25 @@ class SetTabbar extends React.Component {
       <div className={styles.Tabbar}>
         <ul>
           <li>
-            <NavLink activeClassName={styles.active} to="/home">
+            <NavLink activeClassName={styles.active} to="/">
               <i class="iconfont iconshouye" />
               <span>首页</span>
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/category">
+            <NavLink activeClassName={styles.active} to="/type">
               <i class="iconfont iconleimupinleifenleileibie" />
               <span>分类</span>
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/shopcart">
+            <NavLink activeClassName={styles.active} to="/cart">
               <i class="iconfont icongouwuche" />
               <span>购物车</span>
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/login">
+            <NavLink activeClassName={styles.active} to="/mine">
               <i class="iconfont icongeren" /> <span>登录</span>
             </NavLink>
           </li>
