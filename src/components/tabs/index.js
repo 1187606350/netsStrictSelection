@@ -1,3 +1,4 @@
+
 import styles from './index.less';
 import { Tabs } from 'antd-mobile';
 import React from 'react';
@@ -17,6 +18,10 @@ const TabExample = () => (
       tabBarActiveTextColor="red"
       tabBarInactiveTextColor="black"
       tabs={tabs2}
+      tabBarTextStyle={{ 
+        fontSize: '28px',
+        height: '60px'
+      }}
       initialPage={1}
       className={styles.bigTab}
       onChange={(tab, index) => {

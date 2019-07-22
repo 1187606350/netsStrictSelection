@@ -90,7 +90,6 @@ class Swiper extends React.Component{
 Swiper.propTypes = {
     pagination: propTypes.bool,// 分页器
     navigation:propTypes.bool, //上下页
-    slide: propTypes.arrayOf(propTypes.string).isRequired,//规定传过来的是一个数组，数组里面每一项是字符串
     autoplay: propTypes.bool
 };
 
