@@ -1,40 +1,14 @@
 /**
  * title: 分类
  */
-
+import { connect } from 'dva';
 import React from 'react';
 import styles from './index.less';
 import { Tabs, WhiteSpace } from 'antd-mobile';
 import NavLink from 'umi/navlink';
 class Type extends React.Component {
-  renderContent = tab => (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-
-        backgroundColor: '#fff',
-      }}
-    >
-      <p>Content of {tab.title}</p>
-    </div>
-  );
   render() {
-    const tabs = [
-      { title: '1st Tab', key: 't1' },
-      { title: '2nd Tab', key: 't2' },
-      { title: '3rd Tab', key: 't3' },
-      { title: '4th Tab', key: 't4' },
-      { title: '5th Tab', key: 't5' },
-      { title: '6th Tab', key: 't6' },
-      { title: '7th Tab', key: 't7' },
-      { title: '8th Tab', key: 't8' },
-      { title: '9th Tab', key: 't9' },
-      { title: '10th Tab', key: 't10' },
-      { title: '11th Tab', key: 't11' },
-      { title: '12th Tab', key: 't12' },
-    ];
+    const tabs = this.props.cateList;
     return (
       <div className={styles.p_cateList}>
         <div className={styles.hdWraper}>
@@ -52,9 +26,12 @@ class Type extends React.Component {
             <WhiteSpace />
             <Tabs
               tabs={tabs}
-              initalPage={'t2'}
               // tabDirection="vertical"
               tabBarPosition="left"
+              onTabClick={() => {
+                this.props.getCateList();
+                console.log(this.props.cateList);
+              }}
               tabBarTextStyle={{
                 lineHeight: '50px',
                 width: '162px',
@@ -65,7 +42,7 @@ class Type extends React.Component {
               renderTabBar={props => (
                 <Tabs.DefaultTabBar
                   renderTab={tab => (
-                    <NavLink to={`type?categoryId=${tab.key}`}>{tab.title}</NavLink>
+                    <NavLink to={`type?categoryId=${tab.goodsTypeId}`}>{tab.activityName}</NavLink>
                   )}
                   {...props}
                   page={12}
@@ -74,15 +51,22 @@ class Type extends React.Component {
             >
               {tabs.map(item => {
                 return (
-                  <div
-                    key={item.key}
-                    style={{
-                      display: 'flex',
-
-                      backgroundColor: '#fff',
-                    }}
-                  >
-                    Content of {item.title}
+                  <div key={item.secondLevelCategories.goodsTypeId} className={styles.rightContent}>
+                    <img
+                      style={{ width: '528px', height: '192px' }}
+                      src={item.activityHtmlUrl ? item.activityHtmlUrl : ''}
+                      alt=""
+                    />
+                    {item.secondLevelCategories.goodsTypeList
+                      ? item.secondLevelCategories.goodsTypeList.map(item => {
+                          return (
+                            <div key={item.goodsTypeId} className={styles.rightContent_box}>
+                              <img src={item.goodsTypeImgUrl} alt="" />
+                              <span>{item.goodsTypeName}</span>
+                            </div>
+                          );
+                        })
+                      : ''}
                   </div>
                 );
               })}
@@ -93,5 +77,21 @@ class Type extends React.Component {
       </div>
     );
   }
+  componentDidMount() {
+    this.props.getCateList();
+  }
 }
-export default Type;
+export default connect(
+  state => {
+    return {
+      cateList: state.type.tabs,
+    };
+  },
+  dispatch => {
+    return {
+      getCateList: () => {
+        dispatch({ type: 'type/getCateList' });
+      },
+    };
+  },
+)(Type);
