@@ -10,7 +10,6 @@ class SetTabbar extends React.Component {
           <li>
             <NavLink exact activeClassName={styles.active} to="/">
               <i className="iconfont iconshouye" />
-              {}
               <span>首页</span>
             </NavLink>
           </li>

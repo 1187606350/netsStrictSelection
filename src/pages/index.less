@@ -1,51 +1,172 @@
 .container {
-  height: 100%;
+   height: 100%; 
+   .top {
+    height:88px;
+    background: #fff;
+    .topUl{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .logo{
+            height: 40px;
+            width: 138px;
+            margin-left: 30px;
+            background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexLogo-a90bdaae6b.png); 
+        }
+        .serach{
+            .serachInp{
+                height: 56px;
+                width: 442px;
+                background: #ededed;
+                border-radius: 10px;
+                border: none;
+                font-size: 27px;
+                background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-553dba3aff.png);
+                background-position: 40px 15px;
+                background-repeat: no-repeat;
+                padding-left: 80px;
+                box-sizing: border-box;
+            }
+        }
+        .topLogin{
+            padding-right: 20px;
+            .loginBtn{
+                height: 45px;
+                width: 74px;
+                background: #fff;
+                font-size: 25px;
+                color: #b4282d;
+                border: 1px solid #b4282d;
+                border-radius: 10px;
+            }
+        }
+    }
+
 }
-
-.top {
-  height: 88px;
-
-  .topUl {
+.grow{
     display: flex;
-    justify-content: space-between;
+    height: 62px;
+    justify-content: space-around;
     align-items: center;
-    height: 100%;
-
-    .logo {
-      height: 40px;
-      width: 138px;
-      margin-left: 30px;
-      background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexLogo-a90bdaae6b.png);
-    }
-
-    .serach {
-      .serachInp {
-        height: 56px;
-        width: 442px;
-        background: #ededed;
-        border-radius: 10px;
-        border: none;
-        font-size: 27px;
-        background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-553dba3aff.png);
-        background-position: 40px 15px;
-        background-repeat: no-repeat;
-        padding-left: 80px;
-        box-sizing: border-box;
-      }
-    }
-
-    .topLogin {
-      padding-right: 20px;
-
-      .loginBtn {
-        height: 45px;
-        width: 74px;
-        background: #fff;
+    background: #fff;
+    .grows{
+        text-align: center;
+        width: 227px;
+        height: 32px;
         font-size: 25px;
-        color: #b4282d;
-        border: 1px solid #b4282d;
-        border-radius: 10px;
-      }
+        color: #333;
     }
-  }
+}
+.lists {
+    height: 340px;
+    display: flex;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    background: #fff;
+    .list {
+        padding-top: 10px;
+        height: 156px;
+        width: 20%;
+        padding-left: 17px;
+        box-sizing: border-box;
+        .list_img{
+            height: 110px;
+            width: 110px;
+            img {
+                height: 110px;
+                width: 110px; 
+            }
+        }
+        .list_type{
+            height: 36px;
+            width: 110px;
+            font-size: 24px;
+            text-align: center;
+            padding-top: 10px;
+            box-sizing: border-box;
+        }
+    }
+}
+.newPeo {
+    height: 558px;
+    margin-top: 25px;
+    background: #fff;
+    .newGift_top {
+        height: 90px;
+        background:#fff;
+        text-align: center;
+        line-height: 80px;
+        box-sizing: border-box;
+        .newGift_top_txt{
+            font-size: 30px;
+        }
+    }
+    .newGift_bottom {
+        height: 438px;
+        padding-left: 30px;
+        display: flex;
+        .newGift_bottom_lef{
+            width: 343px;
+            height: 434px;
+            background: #F9E9CF;
+            border-radius: 3px;
+            margin-right: 5px;
+            .name{
+                font-size: 30px;
+                color: #333;
+                height: 78px;
+                padding: 30px 0 0 30px;
+                box-sizing: border-box;
+            }
+            .rmb{
+                width: 258px;
+                height: 257px;
+                margin: 20px 0 0 42px;
+            }
+        }
+        .newGift_bottom_rig{
+            .newGift_bottom_top{
+                width: 343px;
+                height: 215px;
+                background: #F9E9CF;
+                border-radius: 3px; 
+                margin-bottom: 5px;
+                padding: 10px 0 0 10px;
+            }
+            .newGift_bottom_bot{
+                width: 343px;
+                height: 215px;
+                border-radius: 3px; 
+                background: #FFECC2; 
+            }
+            .welfare{
+                display: flex;
+                .welfare_txt{
+                    width: 142px; 
+                    .welfare_txt_fu{
+                        display: block;
+                        padding:10px 0 0 20px;
+                        width: 142px;
+                        height: 48px;
+                        font-size: 30px;
+                        line-height: 48px;
+                    }
+                    .welfare_txt_te{
+                        display: block;
+                        width: 142px;
+                        height: 32px;
+                        font-size: 22px;
+                        color: #7F7F7F;
+                        padding-left: 20px;
+                    }
+                }
+                .welfare_img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
 }
