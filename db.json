@@ -1,0 +1,504 @@
+{
+  "category": [
+    {
+      "activityName": "电脑办公",
+      "activityHtmlUrl": "http://gfs9.gomein.net.cn/wireless/T13FEXBgDT1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000070",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "电视影音",
+      "activityHtmlUrl": "http://gfs11.gomein.net.cn/wireless/T19gEvB7xb1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000071",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "空调水洗",
+      "secondLevelCategories": {
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeId": "10000072",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "厨房卫浴",
+      "activityHtmlUrl": "http://gfs6.gomein.net.cn/wireless/T1uzhXBXxT1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000073",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "生活电器",
+      "activityHtmlUrl": "http://gfs9.gomein.net.cn/wireless/T1dFhXB5YT1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000074",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "手机数码",
+      "activityHtmlUrl": "http://gfs9.gomein.net.cn/wireless/T1uRVXB7C_1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000075",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "美妆个护",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000076",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "母婴玩具",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000077",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "营养保健",
+
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000078",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "服饰鞋帽",
+
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "10000079",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "家装建材",
+      "activityHtmlUrl": "http://gfs12.gomein.net.cn/wireless/T1h_KQBTK_1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10005537.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "100000710",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    },
+    {
+      "activityName": "住宅家具",
+      "activityHtmlUrl": "http://gfs11.gomein.net.cn/wireless/T19NZXB_WT1RCvBVdK_1125_347.jpg",
+      "secondLevelCategories": {
+        "goodsTypeList": [
+          {
+            "goodsTypeId": "cat10000149",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
+            "goodsTypeName": "单反镜头"
+          },
+          {
+            "goodsTypeId": "cat10000150",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
+            "goodsTypeName": "滤镜"
+          },
+          {
+            "goodsTypeId": "cat10000151",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
+            "goodsTypeName": "三脚架/云台"
+          },
+          {
+            "goodsTypeId": "cat10000153",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
+            "goodsTypeName": "摄照包"
+          },
+          {
+            "goodsTypeId": "cat10000154",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
+            "goodsTypeName": "单反配件"
+          },
+          {
+            "goodsTypeId": "cat10000157",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
+            "goodsTypeName": "电池/充电器"
+          }
+        ],
+        "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat21445763.png",
+        "goodsTypeName": "手机",
+        "goodsTypeId": "100000711",
+        "goodsTypeUrl": "/category-cat10000070.html?from=1"
+      }
+    }
+  ]
+}
