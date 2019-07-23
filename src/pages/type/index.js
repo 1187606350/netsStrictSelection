@@ -14,7 +14,12 @@ class Type extends React.Component {
         <div className={styles.hdWraper}>
           <div className={styles.m_hd}>
             <div className={styles.m_itemCateListHd}>
-              <div className={styles.m_topSearchIpt}>
+              <div
+                className={styles.m_topSearchIpt}
+                onClick={() => {
+                  this.props.history.push('/search');
+                }}
+              >
                 <i className="iconfont iconiconset0157" />
                 <span className={styles.placeholder}>搜索商品, 共21805款好物</span>
               </div>
@@ -42,7 +47,12 @@ class Type extends React.Component {
               renderTabBar={props => (
                 <Tabs.DefaultTabBar
                   renderTab={tab => (
-                    <NavLink to={`type?categoryId=${tab.goodsTypeId}`}>{tab.activityName}</NavLink>
+                    <NavLink
+                      to={`type?categoryId=${tab.secondLevelCategories.goodsTypeId}`}
+                      className={styles.active}
+                    >
+                      {tab.activityName}
+                    </NavLink>
                   )}
                   {...props}
                   page={12}
