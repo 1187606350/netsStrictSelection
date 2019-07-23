@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.less';
+import NavLink from 'umi/navlink';
 
 class Cart extends React.Component {
   render() {
@@ -27,7 +28,9 @@ class Cart extends React.Component {
             />
           </div>
           <div className={styles.cart_s}>去添加点什么吧</div>
-          <div className={styles.cart_logo}>登录</div>
+          <NavLink to="/login" className={styles.cart_logo}>
+            登录
+          </NavLink>
         </div>
       </div>
     );
