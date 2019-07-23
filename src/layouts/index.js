@@ -1,13 +1,7 @@
 import Tabbar from './../components/Tabbar';
 import styles from './index.css';
-const SimpleLayout = props => {
-  return <div>{props.children}</div>;
-};
 
-export default function(props) {
-  if (props.location.pathname === '/mine') {
-    return <SimpleLayout {...props} />;
-  }
+function BasicLayout(props) {
   return (
     <div className={styles.Basic}>
       <Tabbar />
@@ -16,12 +10,18 @@ export default function(props) {
   );
 }
 
-// const BasicLayout = props => {
-//   return (
-//     <div className={styles.Basic}>
-//       <Tabbar />
-//       {props.children}
-//     </div>
-//   );
-// };
-// export default BasicLayout;
+// 单页布局
+function SimpleLayout(props) {
+  return <div>{props.children}</div>;
+}
+
+export default props => {
+  if (props.location.pathname === '/mine') {
+    return <SimpleLayout {...props} />;
+  }
+  return <BasicLayout {...props} />;
+};
+
+
+
+

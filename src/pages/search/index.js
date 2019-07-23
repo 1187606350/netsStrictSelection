@@ -14,37 +14,37 @@ class Search extends React.Component {
           <div className={styles.title}>热门搜索</div>
 
           <div className={styles.list}>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               夏凉被82折起
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               电动牙刷69元起
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               9.9元超值专区
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               拖鞋
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               冬枣 限时59元
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               风扇
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               行李箱
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               拖鞋
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               冬枣 限时59元
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               风扇
             </a>
-            <a href="" className={styles.item}>
+            <a href="#" className={styles.item}>
               行李箱
             </a>
           </div>
