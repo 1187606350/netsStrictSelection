@@ -500,5 +500,131 @@
         "goodsTypeUrl": "/category-cat10000070.html?from=1"
       }
     }
+  ],
+  "swiper": [
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/3a5a525079308bab4e34282188cc5ef3.jpg?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/542cc7564cffd33478c689c2380a9f91.jpg?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/5a8fdfaa42b384309a0e7425305fabed.jpg?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/8d2af3ab55bf51d5ac03e5d9c6fa1fc4.jpg?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/3d087e9e13b33629355a9163e9d13ae7.jpg?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/8d2af3ab55bf51d5ac03e5d9c6fa1fc4.jpg?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiUrl": "https://yanxuan.nosdn.127.net/3d087e9e13b33629355a9163e9d13ae7.jpg?imageView&quality=75&thumbnail=750x0"
+    }
+  ],
+  "list": [
+    {
+      "listName": "新品首发",
+      "listUrl": "https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"
+    },
+    {
+      "listName": "居家生活",
+      "listUrl": "https://yanxuan.nosdn.127.net/fede8b110c502ec5799702d5ec824792.png"
+    },
+    {
+      "listName": "服装首饰",
+      "listUrl": "https://yanxuan.nosdn.127.net/2415a74cea7d3f080c2dcaa791884572.png"
+    },
+    {
+      "listName": "美食酒水",
+      "listUrl": "https://yanxuan.nosdn.127.net/d916591adea776351e084016335e5820.png"
+    },
+    {
+      "listName": "个人洗护",
+      "listUrl": "https://yanxuan.nosdn.127.net/6c3bd9d885c818b1f73e497335a68b47.png"
+    },
+    {
+      "listName": "母婴亲子",
+      "listUrl": "https://yanxuan.nosdn.127.net/559d2a240ec20b096590a902217009ff.png"
+    },
+    {
+      "listName": "运动旅游",
+      "listUrl": "https://yanxuan.nosdn.127.net/5c088559ebcc3f0ffcda663f04dfbeb2.png"
+    },
+    {
+      "listName": "数码家电",
+      "listUrl": "https://yanxuan.nosdn.127.net/fbca8e1f2948f0c09fc7672c2c125384.png"
+    },
+    {
+      "listName": "全球特色",
+      "listUrl": "https://yanxuan.nosdn.127.net/f7281169d4e82d5d8d52aa1fec83fe01.png"
+    },
+    {
+      "listName": "超级会员",
+      "listUrl": "https://yanxuan.nosdn.127.net/3954c3cbeb4359dd7007be7a076e0dda.gif"
+    }
+  ],
+  "brand": [
+    {
+      "brandName": "海外制造商",
+      "brandPrice": "9.9",
+      "brandImgUrl":"https://yanxuan.nosdn.127.net/ee848231ce30e63b23b001cff8d867ab.png?imageView&quality=65&thumbnail=330x330"
+    },
+    {
+      "brandName": "CK制造商",
+      "brandPrice": "29.9",
+      "brandImgUrl":"https://yanxuan.nosdn.127.net/9524c51fa9c2a86971f374cbc0b6c7c7.png?imageView&quality=65&thumbnail=330x330"
+    },
+    {
+      "brandName": "新秀丽制造商",
+      "brandPrice": "169",
+      "brandImgUrl":"https://yanxuan.nosdn.127.net/20818ef4e7d98ca6356b3ee59cc315ea.png?imageView&quality=65&thumbnail=330x330"
+    },
+    {
+      "brandName": "Nine West制造商",
+      "brandPrice": "219",
+      "brandImgUrl":"https://yanxuan.nosdn.127.net/4114839cec128a22b8f60ddafec3f944.png?imageView&quality=65&thumbnail=330x330"
+    }
+  ],
+  "sellList": [
+    {
+      "sellListName":"居家生活榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/0f06898140d349b7e466cc5b41265685.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"美食酒水榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/bd2842f9eda908dae2d71f980eeb282e.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"服饰鞋包榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/271eb0b3d94e80579afdeb614cc240ad.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"个人清洁榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/d9376c059ce15a774199e2cedc5a8d63.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"数码家电榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/a40fd46da5dcb4b91412272f331a61f5.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"运动旅行榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/63967eb40b0af505f1fd066442952bab.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"母婴亲子榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/f444ac11115a8249a92dc95dccad6e07.png?imageView&quality=65&thumbnail=200x200"
+    },
+    {
+      "sellListName":"全球特色榜",
+      "sellListImg":"https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=200x200"
+    }
+  ],
+  "pop": [
+    {
+      "popName": ""
+    }
   ]
 }

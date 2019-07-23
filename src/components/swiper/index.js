@@ -46,21 +46,12 @@ class Swiper extends React.Component{
         }
     };
     getBannerList() {
-        fetch("https://m.maizuo.com/gateway?type=2&cityId=310100&k=4179696",{
-            headers:{
-                'X-Client-Info': '{"a":"3000","ch":"1002","v":"5.0.4","e":"15604803767322919240024"}',
-                'X-Host': 'mall.cfg.common-banner'
-            }
-        }).then(response => response.json()).then(res => {
-            if (res.status == 0) {
-                this.setState({
-                    bannerList: res.data.map(item => {
-                        return item.imgUrl
-                    })
+        fetch("http://localhost:3000/swiper",).then(response => response.json()).then(res => {
+            this.setState({
+                bannerList: res.map(item => {
+                    return item.swiUrl
                 })
-            }else{
-                alert(res.msg)
-            }
+            })
         })
     };
     initSwiper() {
