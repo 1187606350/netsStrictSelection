@@ -6,119 +6,54 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat10005442",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10005442.png",
+            "goodsTypeName": "超极本"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat10000093",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10000093.png",
+            "goodsTypeName": "台式主机"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat10000099",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000099.png",
+            "goodsTypeName": "一体机"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat18388430",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat18388430.png",
+            "goodsTypeName": "笔记本配件"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat10000027",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000027.png",
+            "goodsTypeName": "服务器"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
-          }
-        ],
-        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
-        "goodsTypeName": "手机",
-        "goodsTypeId": "10000070",
-        "goodsTypeUrl": "/category-cat10000070.html?from=1"
-      }
-    },
-    {
-      "activityName": "电视影音",
-      "activityHtmlUrl": "http://gfs11.gomein.net.cn/wireless/T19gEvB7xb1RCvBVdK_1125_347.jpg",
-      "secondLevelCategories": {
-        "goodsTypeList": [
-          {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat15787568",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat15787568.png",
+            "goodsTypeName": "iPad配件"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat15787569",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat15787569.png",
+            "goodsTypeName": "移动电源"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat15787570",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat15787570.png",
+            "goodsTypeName": "保护套"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat15787571",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat15787571.png",
+            "goodsTypeName": "保护膜"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
-          },
-          {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
-          }
-        ],
-        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
-        "goodsTypeName": "手机",
-        "goodsTypeId": "10000071",
-        "goodsTypeUrl": "/category-cat10000070.html?from=1"
-      }
-    },
-    {
-      "activityName": "空调水洗",
-      "secondLevelCategories": {
-        "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
-        "goodsTypeName": "手机",
-        "goodsTypeList": [
-          {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
-          },
-          {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
-          },
-          {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
-          },
-          {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
-          },
-          {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
-          },
-          {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat15787572",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat15787572.png",
+            "goodsTypeName": "彩贴"
           }
         ],
         "goodsTypeId": "10000072",
@@ -131,34 +66,34 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat10000181",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/promimg/topics/201605/201605301144040985.png",
+            "goodsTypeName": "燃气热水器"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat10000182",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201605/201605301145220044.png",
+            "goodsTypeName": "电热水器"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat10000201",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/promimg/topics/201605/201605301229090422.png",
+            "goodsTypeName": "洗碗机/嵌入烤箱"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat15985711",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/promimg/topics/201605/201605301154170745.png",
+            "goodsTypeName": "烟灶套餐"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat10000199",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201605/201605301138290319.png",
+            "goodsTypeName": "油烟机"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat10000206",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/promimg/topics/201605/201605301140110059.png",
+            "goodsTypeName": "燃气灶"
           }
         ],
         "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
@@ -173,34 +108,34 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat10000234",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000234.png",
+            "goodsTypeName": "电风扇"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat10000229",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10000229.png",
+            "goodsTypeName": "空调扇"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat10000230",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promotion_image/promoImg/201504/20150430/cat10000230x.png",
+            "goodsTypeName": "空气净化器"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat10000231",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000231.png",
+            "goodsTypeName": "加湿器"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat15985611",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat15985611.png",
+            "goodsTypeName": "净化器滤网"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat10000227",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10000227.png",
+            "goodsTypeName": "取暖器"
           }
         ],
         "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
@@ -255,34 +190,34 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat15555744",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat15555744.png",
+            "goodsTypeName": "洗发护发"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat15555755",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat15555755.png",
+            "goodsTypeName": "沐浴"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat21675798",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat21675798.png",
+            "goodsTypeName": "染发造型"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat21675799",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat21675799.png",
+            "goodsTypeName": "身体乳"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat21675801",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat21675801.png",
+            "goodsTypeName": "脱毛膏"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat21675802",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat21675802.png",
+            "goodsTypeName": "纤体瘦身"
           }
         ],
         "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
@@ -296,34 +231,24 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat10000124",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/promotion_image/promoImg/201505/20150511/1段雀巢.jpg",
+            "goodsTypeName": "1段奶粉"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat10000122",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promotion_image/promoImg/201505/20150511/2段美赞臣.jpg",
+            "goodsTypeName": "2段奶粉"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat10000125",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/promotion_image/promoImg/201505/20150511/3段惠氏.jpg",
+            "goodsTypeName": "3段奶粉"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
-          },
-          {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
-          },
-          {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat10000123",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promotion_image/promoImg/201505/20150511/4段爱他美.jpg",
+            "goodsTypeName": "4段奶粉"
           }
         ],
         "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
@@ -338,34 +263,24 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat10005467",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10005467.png",
+            "goodsTypeName": "验孕测孕"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat10005468",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10005468.png",
+            "goodsTypeName": "润滑/延时"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat10005469",
+            "goodsTypeImgUrl": "//gfs13.gomein.net.cn/wireless/T1C_dbB4Ev1RCvBVdK_140_140.png",
+            "goodsTypeName": "情爱玩具"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
-          },
-          {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
-          },
-          {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat10005470",
+            "goodsTypeImgUrl": "//gfs13.gomein.net.cn/wireless/T1VcdTBCb_1RCvBVdK_140_140.png",
+            "goodsTypeName": "情趣内衣"
           }
         ],
         "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
@@ -380,34 +295,49 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat15985591",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat15985591.png",
+            "goodsTypeName": "女袜"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat15985592",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat15985592.png",
+            "goodsTypeName": "男袜"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat15985594",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat15985594.png",
+            "goodsTypeName": "女式内裤"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat15985595",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat15985595.png",
+            "goodsTypeName": "男式内裤"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat15985596",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat15985596.png",
+            "goodsTypeName": "文胸"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat18776489",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat18776489.png",
+            "goodsTypeName": "家居服"
+          },
+          {
+            "goodsTypeId": "cat18776491",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat18776491.png",
+            "goodsTypeName": "睡袍/睡裙"
+          },
+          {
+            "goodsTypeId": "cat18776492",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/promotion_image/promoImg/201508/20150812/cat18776492.png",
+            "goodsTypeName": "保暖内衣"
+          },
+          {
+            "goodsTypeId": "cat18776490",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/promimg/topics/201607/201607211613210484.png",
+            "goodsTypeName": "抹胸/背心"
           }
         ],
         "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000070.png",
@@ -422,19 +352,19 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat10005537",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10005537.png",
+            "goodsTypeName": "马桶"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat21445652",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat21445652.png",
+            "goodsTypeName": "淋浴花洒"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat21445659",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat21445659.png",
+            "goodsTypeName": "浴室柜"
           },
           {
             "goodsTypeId": "cat10000153",
@@ -442,14 +372,29 @@
             "goodsTypeName": "摄照包"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat10005531",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10005531.png",
+            "goodsTypeName": "水槽"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat21445654",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat21445654.png",
+            "goodsTypeName": "水龙头"
+          },
+          {
+            "goodsTypeId": "cat21445658",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat21445658.png",
+            "goodsTypeName": "浴缸"
+          },
+          {
+            "goodsTypeId": "cat21445655",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat21445655.png",
+            "goodsTypeName": "卫浴挂件"
+          },
+          {
+            "goodsTypeId": "cat10005535",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10005535.png",
+            "goodsTypeName": "厨房挂件"
           }
         ],
         "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat10005537.png",
@@ -464,34 +409,39 @@
       "secondLevelCategories": {
         "goodsTypeList": [
           {
-            "goodsTypeId": "cat10000149",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071140110567.png",
-            "goodsTypeName": "单反镜头"
+            "goodsTypeId": "cat21445763",
+            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat21445763.png",
+            "goodsTypeName": "床"
           },
           {
-            "goodsTypeId": "cat10000150",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat10000150.png",
-            "goodsTypeName": "滤镜"
+            "goodsTypeId": "cat21445764",
+            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat21445764.png",
+            "goodsTypeName": "床垫"
           },
           {
-            "goodsTypeId": "cat10000151",
-            "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat10000152.png",
-            "goodsTypeName": "三脚架/云台"
+            "goodsTypeId": "cat21445765",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat21445765.png",
+            "goodsTypeName": "皮具保养"
           },
           {
-            "goodsTypeId": "cat10000153",
-            "goodsTypeImgUrl": "//img14.gomein.net.cn/image/prodimg/gicon/cat10000153.png",
-            "goodsTypeName": "摄照包"
+            "goodsTypeId": "cat21445766",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201611/201611231604040846.png",
+            "goodsTypeName": "沙发"
           },
           {
-            "goodsTypeId": "cat10000154",
-            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/promimg/topics/201704/201704071415230198.png",
-            "goodsTypeName": "单反配件"
+            "goodsTypeId": "cat15965727",
+            "goodsTypeImgUrl": "//img10.gomein.net.cn/image/prodimg/gicon/cat15965727.png",
+            "goodsTypeName": "茶几"
           },
           {
-            "goodsTypeId": "cat10000157",
-            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat10000157.png",
-            "goodsTypeName": "电池/充电器"
+            "goodsTypeId": "cat15965728",
+            "goodsTypeImgUrl": "//img11.gomein.net.cn/image/prodimg/gicon/cat15965728.png",
+            "goodsTypeName": "鞋柜/换鞋凳"
+          },
+          {
+            "goodsTypeId": "cat15965729",
+            "goodsTypeImgUrl": "//img12.gomein.net.cn/image/prodimg/gicon/cat15965729.png",
+            "goodsTypeName": "电视柜"
           }
         ],
         "goodsTypeImgUrl": "//img13.gomein.net.cn/image/prodimg/gicon/cat21445763.png",
@@ -570,56 +520,56 @@
     {
       "brandName": "海外制造商",
       "brandPrice": "9.9",
-      "brandImgUrl":"https://yanxuan.nosdn.127.net/ee848231ce30e63b23b001cff8d867ab.png?imageView&quality=65&thumbnail=330x330"
+      "brandImgUrl": "https://yanxuan.nosdn.127.net/ee848231ce30e63b23b001cff8d867ab.png?imageView&quality=65&thumbnail=330x330"
     },
     {
       "brandName": "CK制造商",
       "brandPrice": "29.9",
-      "brandImgUrl":"https://yanxuan.nosdn.127.net/9524c51fa9c2a86971f374cbc0b6c7c7.png?imageView&quality=65&thumbnail=330x330"
+      "brandImgUrl": "https://yanxuan.nosdn.127.net/9524c51fa9c2a86971f374cbc0b6c7c7.png?imageView&quality=65&thumbnail=330x330"
     },
     {
       "brandName": "新秀丽制造商",
       "brandPrice": "169",
-      "brandImgUrl":"https://yanxuan.nosdn.127.net/20818ef4e7d98ca6356b3ee59cc315ea.png?imageView&quality=65&thumbnail=330x330"
+      "brandImgUrl": "https://yanxuan.nosdn.127.net/20818ef4e7d98ca6356b3ee59cc315ea.png?imageView&quality=65&thumbnail=330x330"
     },
     {
       "brandName": "Nine West制造商",
       "brandPrice": "219",
-      "brandImgUrl":"https://yanxuan.nosdn.127.net/4114839cec128a22b8f60ddafec3f944.png?imageView&quality=65&thumbnail=330x330"
+      "brandImgUrl": "https://yanxuan.nosdn.127.net/4114839cec128a22b8f60ddafec3f944.png?imageView&quality=65&thumbnail=330x330"
     }
   ],
   "sellList": [
     {
-      "sellListName":"居家生活榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/0f06898140d349b7e466cc5b41265685.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "居家生活榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/0f06898140d349b7e466cc5b41265685.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"美食酒水榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/bd2842f9eda908dae2d71f980eeb282e.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "美食酒水榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/bd2842f9eda908dae2d71f980eeb282e.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"服饰鞋包榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/271eb0b3d94e80579afdeb614cc240ad.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "服饰鞋包榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/271eb0b3d94e80579afdeb614cc240ad.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"个人清洁榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/d9376c059ce15a774199e2cedc5a8d63.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "个人清洁榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/d9376c059ce15a774199e2cedc5a8d63.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"数码家电榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/a40fd46da5dcb4b91412272f331a61f5.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "数码家电榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/a40fd46da5dcb4b91412272f331a61f5.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"运动旅行榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/63967eb40b0af505f1fd066442952bab.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "运动旅行榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/63967eb40b0af505f1fd066442952bab.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"母婴亲子榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/f444ac11115a8249a92dc95dccad6e07.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "母婴亲子榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/f444ac11115a8249a92dc95dccad6e07.png?imageView&quality=65&thumbnail=200x200"
     },
     {
-      "sellListName":"全球特色榜",
-      "sellListImg":"https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=200x200"
+      "sellListName": "全球特色榜",
+      "sellListImg": "https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=200x200"
     }
   ],
   "pop": [

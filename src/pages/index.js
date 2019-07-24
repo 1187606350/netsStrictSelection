@@ -5,9 +5,8 @@ import React from 'react';
 import styles from './index.less';
 import TabExample from '../components/tabs';
 import Swiper from '../components/swiper';
-import { Link } from "react-router-dom";
-import { connect } from "dva"
-
+import { Link } from 'react-router-dom';
+import { connect } from 'dva';
 
 class Home extends React.Component {
   render() {
@@ -50,6 +49,7 @@ class Home extends React.Component {
             <div>
               
               <ul className={styles.lists}>
+
                 {
                   lists.map(item => {
                     return (
@@ -64,6 +64,7 @@ class Home extends React.Component {
                     )
                   })
                 }
+
               </ul>
             </div>
           </div>
@@ -75,7 +76,7 @@ class Home extends React.Component {
               <div className={styles.newGift_bottom_lef}>
                 <div className={styles.name}>新人专享礼包</div>
                 <div className={styles.rmb}>
-                  <img src="//yanxuan.nosdn.127.net/ba4d635ec94ad95b28bfab6500900659.png" alt=""/>
+                  <img src="//yanxuan.nosdn.127.net/ba4d635ec94ad95b28bfab6500900659.png" alt="" />
                 </div>
               </div>
               <div className={styles.newGift_bottom_rig}>
@@ -86,7 +87,10 @@ class Home extends React.Component {
                       <span className={styles.welfare_txt_te}>今日特价</span>
                     </div>
                     <div className={styles.welfare_img}>
-                      <img src="https://yanxuan.nosdn.127.net/d2abd30e0296cdee86f1bdd9242c0937.png?imageView&thumbnail=200x200&quality=75" alt=""/>
+                      <img
+                        src="https://yanxuan.nosdn.127.net/d2abd30e0296cdee86f1bdd9242c0937.png?imageView&thumbnail=200x200&quality=75"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -97,7 +101,10 @@ class Home extends React.Component {
                       <span className={styles.welfare_txt_yo}>一元起包邮</span>
                     </div>
                     <div className={styles.welfare_img}>
-                      <img src="https://yanxuan.nosdn.127.net/890f61b6af6644ba4fb706c878da21ea.png?imageView&thumbnail=200x200&quality=75" alt=""/>
+                      <img
+                        src="https://yanxuan.nosdn.127.net/890f61b6af6644ba4fb706c878da21ea.png?imageView&thumbnail=200x200&quality=75"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </div>
@@ -114,8 +121,7 @@ class Home extends React.Component {
           </div>
           <div className={styles.moduleTitle_list}>
             <ul className={styles.moduleTitle_list_ul}>
-            {
-              brands.map(item => {
+              {brands.map(item => {
                 return (
                   <li className={styles.moduleTitle_list_item} key={item.brandName}>
                     <Link to="/list">
@@ -126,12 +132,11 @@ class Home extends React.Component {
                           <span className={styles.qi}>元起</span>
                         </div>
                       </div>
-                      <img className={styles.moduleTitle_list_img} src={item.brandImgUrl}/>
+                      <img className={styles.moduleTitle_list_img} src={item.brandImgUrl} alt="" />
                     </Link>
                   </li>
-                )
-              })
-            }
+                );
+              })}
             </ul>
           </div>
           <div className={styles.moduleTitle}>
@@ -145,32 +150,36 @@ class Home extends React.Component {
               <div className={styles.content_hot}>
                 <div className={styles.content_name}>热销榜</div>
                 <div className={styles.content_img}>
-                  <img src="https://yanxuan.nosdn.127.net/e37656ecad9a2494f456e222fe7800a2.png?imageView&quality=65&thumbnail=200x200" />
+                  <img
+                    src="https://yanxuan.nosdn.127.net/e37656ecad9a2494f456e222fe7800a2.png?imageView&quality=65&thumbnail=200x200"
+                    alt=""
+                  />
                 </div>
               </div>
               <div className={styles.content_good}>
                 <div className={styles.content_name}>好评榜</div>
                 <div className={styles.content_img}>
-                  <img src="https://yanxuan.nosdn.127.net/736910b062c81b336a0418062a80bc5c.png?imageView&quality=65&thumbnail=200x200" />
+                  <img
+                    src="https://yanxuan.nosdn.127.net/736910b062c81b336a0418062a80bc5c.png?imageView&quality=65&thumbnail=200x200"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
             <div className={styles.content_bot}>
               <ul className={styles.content_bot_ul}>
-                {
-                  sellLists.map(item => {
-                    return (
+                {sellLists.map(item => {
+                  return (
                     <li className={styles.content_bot_li} key={item.sellListName}>
                       <Link to="/list">
                         <div className={styles.content_bot_li_item}>{item.sellListName}</div>
                         <div className={styles.content_bot_li_img}>
-                          <img src={item.sellListImg} />
+                          <img src={item.sellListImg} alt="" />
                         </div>
                       </Link>
                     </li>
-                    )
-                  })
-                }
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -185,7 +194,10 @@ class Home extends React.Component {
             </div>
             <div className={styles.spItem}>
               <div className={styles.spItem_img}>
-                <img src="https://yanxuan.nosdn.127.net/8ee282bed26f6248b3453b4b202a55db.png?imageView&quality=65&thumbnail=280x280" />
+                <img
+                  src="https://yanxuan.nosdn.127.net/8ee282bed26f6248b3453b4b202a55db.png?imageView&quality=65&thumbnail=280x280"
+                  alt=""
+                />
               </div>
               <div className={styles.spItem_wraper}>
                 <div className={styles.tagWraper}>
@@ -221,6 +233,7 @@ class Home extends React.Component {
                     )
                   })
                 }
+
               </ul>
             </div>
             <div className={styles.moduleTitle}>
@@ -233,6 +246,7 @@ class Home extends React.Component {
             </div>
             <div className={styles.time}>
               <ul className={styles.time_ul}>
+
                 {
                   limits.map(item => {
                     return (
@@ -253,6 +267,7 @@ class Home extends React.Component {
                     )
                   })
                 }
+               
               </ul>
             </div>
           </div>
@@ -274,22 +289,25 @@ export default connect(
   state => {
     return {
       lists: state.home.lists,
+
       brands:state.home.brands,
       sellLists:state.home.sellLists,
       pops:state.home.pops,
       limits:state.home.limits,
       homeLists:state.list.homeLists
     }
+
   },
   dispatch => {
     return {
       getList: () => {
-        dispatch({ type: "home/getList" })
+        dispatch({ type: 'home/getList' });
       },
       getBrand: () => {
-        dispatch({ type: "home/getBrand" })
+        dispatch({ type: 'home/getBrand' });
       },
       getSellList: () => {
+
         dispatch({ type: "home/getSellList" })
       },
       getPop: () => {
@@ -303,4 +321,6 @@ export default connect(
       }
     }
   }
+
+      
 )(Home);
