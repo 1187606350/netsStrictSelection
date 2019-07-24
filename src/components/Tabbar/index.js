@@ -1,38 +1,56 @@
 import React from 'react';
 import NavLink from 'umi/navlink';
 import styles from './index.less';
-
+import { connect } from 'dva';
 class SetTabbar extends React.Component {
   render() {
     return (
       <div className={styles.Tabbar}>
-        <ul>
+        <ul id="tabbarId">
           <li>
-            <NavLink exact activeClassName={styles.active} to="/">
+            <NavLink exact className={styles} to="/">
               <i className="iconfont iconshouye" />
               <span>首页</span>
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/type">
+            <NavLink activeClassName={styles} to="/type">
               <i className="iconfont iconleimupinleifenleileibie" />
               <span>分类</span>
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/cart">
+            <NavLink activeClassName={styles} to="/cart">
               <i className="iconfont icongouwuche" />
               <span>购物车</span>
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName={styles.active} to="/mine">
-              <i className="iconfont icongeren" /> <span>登录</span>
-            </NavLink>
+            {this.props.username ? (
+              <NavLink activeClassName={styles} to="/center">
+                <i className="iconfont icongeren" /> <span>个人</span>
+              </NavLink>
+            ) : (
+              <NavLink activeClassName={styles} to="/mine">
+                <i className="iconfont icongeren" /> <span>个人</span>
+              </NavLink>
+            )}
           </li>
         </ul>
       </div>
     );
   }
+  initialTabar() {
+    let aTag = document.querySelector('#tabbarId a');
+
+    aTag.className = 'styles.active';
+  }
+  componentDidMount() {
+    this.initialTabar();
+  }
 }
-export default SetTabbar;
+export default connect(state => {
+  return {
+    username: state.user.username,
+  };
+})(SetTabbar);

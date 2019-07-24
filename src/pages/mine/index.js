@@ -14,8 +14,12 @@ class Mine extends React.Component {
           <div className={styles.logo}>
             <img src="//yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png" alt="" />
           </div>
-          <NavLink to="/login">登录</NavLink>
-          <div className={styles.reg}>注册</div>
+          <NavLink to="/login" className={styles.login}>
+            登录
+          </NavLink>
+          <NavLink to="/register" className={styles.reg}>
+            注册
+          </NavLink>
         </div>
       </div>
     );
