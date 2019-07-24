@@ -31,7 +31,7 @@ class Type extends React.Component {
             <WhiteSpace />
             <Tabs
               tabs={tabs}
-              // tabDirection="vertical"
+              
               tabBarPosition="left"
               tabBarActiveTextColor="#ab2b2b"
               onTabClick={() => {
