@@ -13,7 +13,7 @@ class Login extends React.Component {
   };
   onErrorClick = () => {
     if (this.state.hasPhError) {
-      Toast.info('请输入正确的手机号');
+      Toast.info(`请输入正确的用户名`);
     } else if (this.state.hasPwError) {
       Toast.info('请输入正确的密码');
     }
@@ -29,7 +29,7 @@ class Login extends React.Component {
       });
     }
     this.setState({
-      phonenumber: value,
+      phoneNumber: value,
     });
   };
   onChangePw = value => {
@@ -57,12 +57,12 @@ class Login extends React.Component {
           </div>
           <List className={styles.form} renderHeader={() => ''}>
             <InputItem
-              type="phone"
+              type="text"
               placeholder="请输入手机号"
               error={this.state.hasPhError}
               onErrorClick={this.onErrorClick}
               onChange={this.onChangePhone}
-              value={this.state.phonenumber}
+              value={this.state.phoneNumber}
             />
           </List>
           <List className={styles.form} renderHeader={() => ''}>
