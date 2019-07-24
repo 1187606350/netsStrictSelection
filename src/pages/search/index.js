@@ -10,9 +10,7 @@ class Search extends React.Component {
             <input type="text" placeholder="搜索商品" className={styles.serachInp} />
             <p>取消</p>
           </div>
-
           <div className={styles.title}>热门搜索</div>
-
           <div className={styles.list}>
             <a href="#" className={styles.item}>
               夏凉被82折起
@@ -48,8 +46,8 @@ class Search extends React.Component {
               行李箱
             </a>
           </div>
+          </div> 
         </div>
-      </div>
     );
   }
 }

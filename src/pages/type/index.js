@@ -31,7 +31,7 @@ class Type extends React.Component {
             <WhiteSpace />
             <Tabs
               tabs={tabs}
-              // tabDirection="vertical"
+              
               tabBarPosition="left"
               onTabClick={() => {
                 this.props.getCateList();

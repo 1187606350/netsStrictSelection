@@ -3,7 +3,7 @@ import Baseswiper from "swiper";
 import propTypes from "prop-types";
 import "swiper/dist/css/swiper.css"
 import "./index.css"
-class Swiper extends React.Component{
+class Swiper extends React.PureComponent{
     state = {
         bannerList: []
     }

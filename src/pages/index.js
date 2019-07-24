@@ -14,13 +14,20 @@ class Home extends React.Component {
     let lists = this.props.lists;
     let brands = this.props.brands;
     let sellLists = this.props.sellLists;
+    let pops = this.props.pops;
+    let limits = this.props.limits;
+    let homeLists = this.props.homeLists;
     return (
       <div className={styles.container}>
         <div className={styles.top}>
           <ul className={styles.topUl}>
             <li className={styles.logo} />
             <li className={styles.serach}>
-              <input type="text" placeholder="搜索商品" className={styles.serachInp} />
+              <div className={styles.serachInp} onClick={() => {
+                this.props.history.push('/search')
+              }}>
+                搜索商品,共12377件商品
+              </div>
             </li>
             <li className={styles.topLogin}>
               <button className={styles.loginBtn}>登录</button>
@@ -32,7 +39,7 @@ class Home extends React.Component {
         </div>
         <div className={styles.nav}>
           <div className={styles.swiper}>
-            <Swiper />
+            <Swiper autoPlay={true}/>
           </div>
           <div>
             <ul className={styles.grow}>
@@ -41,12 +48,13 @@ class Home extends React.Component {
               <li className={styles.grows}>48小时快速退款</li>
             </ul>
             <div>
+              
               <ul className={styles.lists}>
                 {
                   lists.map(item => {
                     return (
                         <li className={styles.list} key={item.listName}>
-                          <Link to="/type">
+                          <Link to="/list">
                           <div className={styles.list_img}>
                             <img src={item.listUrl} />
                           </div>
@@ -110,7 +118,7 @@ class Home extends React.Component {
               brands.map(item => {
                 return (
                   <li className={styles.moduleTitle_list_item} key={item.brandName}>
-                    <Link to="/type">
+                    <Link to="/list">
                       <div className={styles.cnt}>
                         <h4 className={styles.cnt_title}>{item.brandName}</h4>
                         <div className={styles.cnt_money}>
@@ -153,7 +161,7 @@ class Home extends React.Component {
                   sellLists.map(item => {
                     return (
                     <li className={styles.content_bot_li} key={item.sellListName}>
-                      <Link to="/type">
+                      <Link to="/list">
                         <div className={styles.content_bot_li_item}>{item.sellListName}</div>
                         <div className={styles.content_bot_li_img}>
                           <img src={item.sellListImg} />
@@ -193,48 +201,26 @@ class Home extends React.Component {
             </div>
             <div className={styles.sp_list}>
               <ul className={styles.sp_ul}>
-                <li className={styles.sp_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=330x330"
-                    className={styles.swiper_lazy}
-                  />
-                  <span className={styles.swiper_spa}>日本制造</span>
-                  <span className={styles.swiper_name}>
-                    日本制造 头皮护理发根滋养...
-                    <span>¥79</span>
-                  </span>
-                  <div className={styles.gradientPrice}>
-                    <span className={styles.gradientPrice_rmb}>好货内部价</span>
-                  </div>
-                </li>
-                <li className={styles.sp_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=330x330"
-                    className={styles.swiper_lazy}
-                  />
-                  <span className={styles.swiper_spa}>日本制造</span>
-                  <span className={styles.swiper_name}>
-                    日本制造 头皮护理发根滋养...
-                    <span>¥79</span>
-                  </span>
-                  <div className={styles.gradientPrice}>
-                    <span className={styles.gradientPrice_rmb}>好货内部价</span>
-                  </div>
-                </li>
-                <li className={styles.sp_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=330x330"
-                    className={styles.swiper_lazy}
-                  />
-                  <span className={styles.swiper_spa}>日本制造</span>
-                  <span className={styles.swiper_name}>
-                    日本制造 头皮护理发根滋养...
-                    <span>¥79</span>
-                  </span>
-                  <div className={styles.gradientPrice}>
-                    <span className={styles.gradientPrice_rmb}>好货内部价</span>
-                  </div>
-                </li>
+                {
+                  pops.map(item => {
+                    return (
+                      <li className={styles.sp_li} key={item.index}>
+                        <img
+                          src={item.popImg}
+                          className={styles.swiper_lazy}
+                        />
+                        <span className={styles.swiper_spa}>{item.popMake}</span>
+                        <span className={styles.swiper_name}>
+                          {item.popDetails}
+                          <span>¥{item.popPrice}</span>
+                        </span>
+                        <div className={styles.gradientPrice}>
+                          <span className={styles.gradientPrice_rmb}>{item.popCoupon}</span>
+                        </div>
+                      </li>
+                    )
+                  })
+                }
               </ul>
             </div>
             <div className={styles.moduleTitle}>
@@ -247,78 +233,26 @@ class Home extends React.Component {
             </div>
             <div className={styles.time}>
               <ul className={styles.time_ul}>
-                <li className={styles.time_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/5a0d395159cf7f51d48c45599b96df3f.png?imageView&thumbnail=216x216&quality=75"
-                    className={styles.time_li_img}
-                  />
-                  <div>
-                    <span className={styles.time_spa}>
-                      <span className={styles.time_new}>￥78</span>
-                      <span className={styles.time_old}>￥23</span>
-                    </span>
-                  </div>
-                </li>
-                <li className={styles.time_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/5a0d395159cf7f51d48c45599b96df3f.png?imageView&thumbnail=216x216&quality=75"
-                    className={styles.time_li_img}
-                  />
-                  <div>
-                    <span className={styles.time_spa}>
-                      <span className={styles.time_new}>￥78</span>
-                      <span className={styles.time_old}>￥23</span>
-                    </span>
-                  </div>
-                </li>
-                <li className={styles.time_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/5a0d395159cf7f51d48c45599b96df3f.png?imageView&thumbnail=216x216&quality=75"
-                    className={styles.time_li_img}
-                  />
-                  <div>
-                    <span className={styles.time_spa}>
-                      <span className={styles.time_new}>￥78</span>
-                      <span className={styles.time_old}>￥23</span>
-                    </span>
-                  </div>
-                </li>
-                <li className={styles.time_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/5a0d395159cf7f51d48c45599b96df3f.png?imageView&thumbnail=216x216&quality=75"
-                    className={styles.time_li_img}
-                  />
-                  <div>
-                    <span className={styles.time_spa}>
-                      <span className={styles.time_new}>￥78</span>
-                      <span className={styles.time_old}>￥23</span>
-                    </span>
-                  </div>
-                </li>
-                <li className={styles.time_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/5a0d395159cf7f51d48c45599b96df3f.png?imageView&thumbnail=216x216&quality=75"
-                    className={styles.time_li_img}
-                  />
-                  <div>
-                    <span className={styles.time_spa}>
-                      <span className={styles.time_new}>￥78</span>
-                      <span className={styles.time_old}>￥23</span>
-                    </span>
-                  </div>
-                </li>
-                <li className={styles.time_li}>
-                  <img
-                    src="https://yanxuan.nosdn.127.net/5a0d395159cf7f51d48c45599b96df3f.png?imageView&thumbnail=216x216&quality=75"
-                    className={styles.time_li_img}
-                  />
-                  <div>
-                    <span className={styles.time_spa}>
-                      <span className={styles.time_new}>￥78</span>
-                      <span className={styles.time_old}>￥23</span>
-                    </span>
-                  </div>
-                </li>
+                {
+                  limits.map(item => {
+                    return (
+                      <li className={styles.time_li} key={item.index}>
+                        <Link to="/list">
+                          <img
+                            src={item.limitTimeImg}
+                            className={styles.time_li_img}
+                          />
+                          <div>
+                            <span className={styles.time_spa}>
+                              <span className={styles.time_new}>￥{item.newPrice}</span>
+                              <span className={styles.time_old}>￥{item.oldPrice}</span>
+                            </span>
+                          </div>
+                        </Link>
+                      </li>
+                    )
+                  })
+                }
               </ul>
             </div>
           </div>
@@ -331,6 +265,9 @@ class Home extends React.Component {
     this.props.getList();
     this.props.getBrand();
     this.props.getSellList();
+    this.props.getPop();
+    this.props.getLimit();
+    this.props.gethomeList()
   }
 }
 export default connect(
@@ -338,7 +275,10 @@ export default connect(
     return {
       lists: state.home.lists,
       brands:state.home.brands,
-      sellLists:state.home.sellLists
+      sellLists:state.home.sellLists,
+      pops:state.home.pops,
+      limits:state.home.limits,
+      homeLists:state.list.homeLists
     }
   },
   dispatch => {
@@ -351,6 +291,15 @@ export default connect(
       },
       getSellList: () => {
         dispatch({ type: "home/getSellList" })
+      },
+      getPop: () => {
+        dispatch({ type: "home/getPop" })
+      },
+      getLimit: () => {
+        dispatch({ type: "home/getLimit" })
+      },
+      gethomeList: () =>{
+        dispatch({ type: "list/gethomeList" })
       }
     }
   }

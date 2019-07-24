@@ -624,7 +624,166 @@
   ],
   "pop": [
     {
-      "popName": ""
+      "popDetails": "日本制造 头皮护理发根滋养...",
+      "popPrice":"79",
+      "popCoupon":"好货内部价",
+      "popMake":"日本制造",
+      "popImg": "https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=330x330"
+    },
+    {
+      "popDetails": "“树上长的水”椰子水 33...",
+      "popPrice":"98",
+      "popCoupon":"超值价",
+      "popMake":"马来西亚直米",
+      "popImg": "https://yanxuan.nosdn.127.net/bd2842f9eda908dae2d71f980eeb282e.png?imageView&quality=65&thumbnail=330x330"
+    },
+    {
+      "popDetails": "男式无缝休闲运动T恤",
+      "popPrice":"49.9",
+      "popCoupon":"超值价",
+      "popMake":"四色可选",
+      "popImg": "https://yanxuan.nosdn.127.net/35dcfb65d0c065902c404e429ab7fb36.png?imageView&quality=65&thumbnail=330x330"
+    }
+  ],
+  "limitTime": [
+    {
+      "limitTimeImg":"https://yanxuan.nosdn.127.net/143b6cc32395583d02526d881aeddf76.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice":"349",
+      "oldPrice":"428"
+    },
+    {
+      "limitTimeImg":"https://yanxuan.nosdn.127.net/5800035cda4787b4bf8d8da8c151bdc2.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice":"58",
+      "oldPrice":"68"
+    },
+    {
+      "limitTimeImg":"https://yanxuan.nosdn.127.net/626d0f4bd373f92b40f895301fa009e8.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice":"39.2",
+      "oldPrice":"49"
+    },
+    {
+      "limitTimeImg":"https://yanxuan.nosdn.127.net/391c5e3649d26006fa4ee2ceada10b6a.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice":"39",
+      "oldPrice":"49"
+    },
+    {
+      "limitTimeImg":"https://yanxuan.nosdn.127.net/cd3ff27cf9e188a99721cb55ad69ba93.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice":"49.7",
+      "oldPrice":"60"
+    },
+    {
+      "limitTimeImg":"https://yanxuan.nosdn.127.net/5e55d8b3475eeabc798ad66882e52518.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice":"105",
+      "oldPrice":"139"
+    }
+  ],
+  "lists":[
+    {
+      "listType": "居家生活",
+      "listTypeId": "1",
+      "goodHomeList": {
+        "homeList":[
+          {
+            "listDetails": "可裸睡针织棉，植物抗菌柔弹",
+            "listName": "全棉针织条纹大豆纤维夏被 可机洗",
+            "listPrice": "199",
+            "listTagWraper": "每满99减15券",
+            "listImg": "https://yanxuan.nosdn.127.net/24c4449c94effef888cfe4e93f46ea17.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "100%优等桑蚕丝，天丝爽滑贴肤",
+            "listName": "60s天丝绣花桑蚕丝夏被 可机洗",
+            "listPrice": "599",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/79307e9d2b79675a946747d9821df409.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "三峡水牛头层皮，高端夏凉必备",
+            "listName": "新色 奢华植鞣头层水牛皮席 凉席三件套",
+            "listPrice": "2599",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/ac8d71c7c4fbc1449e7eef4c6673de21.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "玉石冷感纤维，可水洗接触清凉",
+            "listName": " 黑科技吸放湿超冷感垫 夏凉垫可机洗",
+            "listPrice": "199",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/03da1c4b2c55492dcbc13a15519fcea2.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "防蚊艾草自然香，平滑细密享清凉",
+            "listName": " 艾草祛湿防蚊清凉仿藤席 凉席三件套",
+            "listPrice": "399",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/7b914d589c361eb43305e9230aa8c1a4.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "凉而不冰，爽滑透气，易收纳",
+            "listName": " 提花冰丝席三件套 可折叠凉席",
+            "listPrice": "199",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/dacefc02bb15d2c974a9723e480c0fb8.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "日式水洗工艺，慵懒自然宜裸睡",
+            "listName": " 日式水洗棉格纹四件套 新款",
+            "listPrice": "299",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/20bea11f864bca5b14eee9f992f1acce.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "源于木浆莫代尔，如丝凉滑享自然",
+            "listName": "丝滑莫代尔AB面四件套",
+            "listPrice": "499",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/fc31b8353351b64edf6933e0e5864b83.png?imageView&quality=65&thumbnail=330x330"
+          }
+        ]
+      }  
+    },
+    {
+      "listType": "服饰鞋包",
+      "listTypeId": "2",
+      "goodHomeList": {
+        "homeList":[
+          {
+            "listDetails": "HUGO BOSS制造商出品",
+            "listName": "男/女复古金属飞行员墨镜",
+            "listPrice": "69.5",
+            "listTagWraper": "抄底特惠",
+            "listImg": "https://yanxuan.nosdn.127.net/241ef72213c345ba4e1caa0e864f4bd7.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "优质精梳棉，立体剪裁更自在",
+            "listName": "男式基础平角内裤",
+            "listPrice": "44.3",
+            "listTagWraper": "好货内部价",
+            "listImg": "https://yanxuan.nosdn.127.net/a94b7bcc484dbce57bdd61003798abd5.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "10种颜色可选，柔软好心情",
+            "listName": "玩趣彩虹四季拖鞋",
+            "listPrice": "19.9",
+            "listTagWraper": "每满100减15券",
+            "listImg": "https://yanxuan-item.nosdn.127.net/9be72b135c1053cc429911e6146acded.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "41L适中容量，100%铝镁合金",
+            "listName": " 20寸 全铝镁合金登机箱",
+            "listPrice": "799",
+            "listTagWraper": "每满100减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/3a475c2aa0224d8a9af82a5ea09cfdf0.png?imageView&quality=65&thumbnail=330x330"
+          },
+          {
+            "listDetails": "109升大容量 满足全家出行",
+            "listName": " 28寸 纯PC“铝框”（非全铝）拉杆箱",
+            "listPrice": "489",
+            "listTagWraper": "每满99减20券",
+            "listImg": "https://yanxuan.nosdn.127.net/79640de310cc786d2101efa5c3c6096a.png?imageView&quality=65&thumbnail=330x330"
+          }
+        ]
+      }  
     }
   ]
 }
