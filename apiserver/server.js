@@ -11,7 +11,6 @@ const server = express();
 // 中间件的使用和配置
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
-// server.use(express.static('public'))
 server.use((req, res, next) => {
   res.set('Access-Control-Allow-Origin', '*');
   res.set('Access-Control-Allow-Headers', 'content-type');

@@ -71,7 +71,7 @@ const postRegister = (req, res) => {
         .then(() => {
           res.send({
             code: 0,
-            msg: 'ok',
+            msg: '注册成功',
           });
         })
         .catch(error => {
