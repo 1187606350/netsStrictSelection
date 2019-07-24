@@ -13,6 +13,7 @@ class Search extends React.Component {
               取消
             </NavLink>
           </div>
+
           <div className={styles.host}>
             <div className={styles.title}>热门搜索</div>
 
@@ -63,8 +64,8 @@ class Search extends React.Component {
             <li className={styles.itemval}>888</li>
             <li className={styles.itemval}>999</li>
           </ul>
+
         </div>
-      </div>
     );
   }
 }

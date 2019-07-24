@@ -31,11 +31,11 @@ class Type extends React.Component {
             <WhiteSpace />
             <Tabs
               tabs={tabs}
-              // tabDirection="vertical"
+              
               tabBarPosition="left"
+              tabBarActiveTextColor="#ab2b2b"
               onTabClick={() => {
                 this.props.getCateList();
-                console.log(this.props.cateList);
               }}
               tabBarTextStyle={{
                 lineHeight: '50px',
@@ -43,13 +43,14 @@ class Type extends React.Component {
                 fontSize: '28px',
                 paddingTop: '20px',
                 paddingBottom: '20px',
+                color: '#000',
               }}
               renderTabBar={props => (
                 <Tabs.DefaultTabBar
                   renderTab={tab => (
                     <NavLink
+                      className={styles}
                       to={`type?categoryId=${tab.secondLevelCategories.goodsTypeId}`}
-                      className={styles.active}
                     >
                       {tab.activityName}
                     </NavLink>
@@ -71,7 +72,7 @@ class Type extends React.Component {
                       ? item.secondLevelCategories.goodsTypeList.map(item => {
                           return (
                             <div key={item.goodsTypeId} className={styles.rightContent_box}>
-                              <img src={item.goodsTypeImgUrl} alt="" />
+                              <img src={item.goodsTypeImgUrl} alt="图片无法加载" />
                               <span>{item.goodsTypeName}</span>
                             </div>
                           );

@@ -10,9 +10,11 @@ class Login extends React.Component {
     username: this.props.username,
     password: this.props.password,
   };
+
   onChangePw = value => {
     this.setState({
       password: value,
+
     });
   };
   onChangePhone = value => {
@@ -32,9 +34,11 @@ class Login extends React.Component {
           <List className={styles.form} renderHeader={() => ''}>
             <InputItem
               type="text"
+
               placeholder="请输入您的用户名"
               onChange={this.onChangePhone}
               value={this.state.username}
+
             />
           </List>
           <List className={styles.form} renderHeader={() => ''}>
