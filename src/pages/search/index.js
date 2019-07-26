@@ -3,6 +3,9 @@ import styles from './index.less';
 import NavLink from 'umi/navlink';
 
 class Search extends React.Component {
+  state = {
+    goods: "豆豆鞋"
+  }
   render() {
     return (
       <div className={styles.search}>
@@ -16,7 +19,6 @@ class Search extends React.Component {
 
           <div className={styles.host}>
             <div className={styles.title}>热门搜索</div>
-
             <div className={styles.list}>
               <NavLink to="/type" className={styles.item}>
                 夏凉被82折起
@@ -66,7 +68,9 @@ class Search extends React.Component {
           </ul>
 
         </div>
-    );
+      </div>
+    )
+    
   }
 }
 export default Search;

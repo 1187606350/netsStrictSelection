@@ -1,0 +1,162 @@
+@import "../../assets/common/mixins.less";
+.purchase{
+    position: relative;
+    margin-top:88px;
+    .title{
+        height: 130px;
+        .border-1px(#d9d9d9, bottom);
+        padding: 24px 30px;
+        background: #f9f9f9;
+        .title_ul{
+            display: flex;
+            flex-wrap: wrap;
+            .title_li{
+                height: 80px;
+                width: 33%;
+                display: flex;
+                .title_li_lef{
+                    width: 72px;
+                    height: 72px;
+                    margin-right: 12px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+                .title_li_rig{
+                    width: 114px;
+                    height: 80px;
+                    .li_rig_text{
+                        font-size: 27px;
+                        color: #333;
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .content{
+        height: 370px;
+        margin-bottom: 104px;
+        padding: 26px 0 36px 30px;
+        position: relative;
+        .content_price{
+            height: 60px;
+            p{
+                font-size: 54px;
+                color: #b4282d;
+            }
+        }
+        .spmcBanner{
+            width: 690px;
+            height: 120px;
+            background: #F0E7D3;
+            margin: 18px 0 24px;
+            padding: 24px 20px;
+            position: relative;
+            .spmcPrice{
+                height: 33px;
+                margin-bottom: 14px;
+                .spmcDesc{
+                    display: flex;
+                    .super{
+                        font-size: 24px;
+                        color: #333;
+                        padding-top: 7px;
+                    }
+                    .spmcEconomizePrice{
+                        font-size: 32px;
+                        color: #151515;
+                    }
+                }
+            }
+            .spmcPrivilegeMess{
+                height: 32px;
+                font-size: 21px;
+                color: #BEA36E;
+            }
+            .open{
+                display: block;
+                height: 56px;
+                width: 160px;
+                background: #CBB588;
+                text-align: center;
+                color: #fff;
+                font-size: 24px;
+                line-height: 56px;
+                border-radius: 5px;
+                position: absolute;
+                top:33px;
+                right: 20px;
+            }
+        }
+        .content_name{
+            width: 518px;
+            height: 48px;
+            font-size: 32px;
+            color: #333;
+        }
+        .content_desc{
+            width: 518px;
+            height: 36px;
+            font-size: 24px;
+            color: #7f7f7f;
+        }
+        .content_comment{
+            width: 178px;
+            height: 86px;
+            position: absolute;
+            bottom:35px;
+            right: 30px;
+            .content_num{
+                width: 90px;
+                height: 45px;
+                font-size: 32px;
+                color: #B4282D;
+                margin-left: 60px;
+            }
+            .content_good{
+                width: 90px;
+                height: 36px;
+                font-size: 24px;
+                color: #7f7f7f;
+                text-align: center;
+                margin-left: 60px;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+        .artificial{
+            width: 156px;
+            height: 104px;
+            background-image: url(//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/detail-kefu-d10f0489d2.png);
+            background-repeat: no-repeat;
+            background-position: 45px 23px;
+            color: #333;
+            background-color: #fff;
+        }
+        .buy{
+            width: 297px;
+            height: 104px;
+            font-size: 27px;
+            background: #fff;
+            color: #333;
+            text-align: center;
+            line-height: 104px;
+            border-right: none;
+            border-left: #c7c7c7;
+        }
+        .cart{
+            width: 297px;
+            height: 104px;
+            font-size: 27px;
+            color: #fff;
+            text-align: center;
+            border: 1px solid #b4282d;
+            background-color: #b4282d;
+            line-height: 104px;
+
+        }
+    }
+}

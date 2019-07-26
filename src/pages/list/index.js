@@ -3,6 +3,7 @@ import styles from './index.less';
 import Swiper from '../../components/swiper';
 import TabExample from '../../components/tabs';
 import { connect } from "dva";
+import { NavLink } from "react-router-dom"
 
 class List extends React.Component {
   render() {
@@ -43,7 +44,8 @@ class List extends React.Component {
                         item.goodHomeList.homeList.map(item => {
                           return (
                             <li className={styles.goodGrid_ul_li} key={item.listDetails}>
-                                <div className={styles.goodGrid_img}>
+                              <NavLink to="/purchase">
+                              <div className={styles.goodGrid_img}>
                                     <img src={item.listImg} alt=""/>
                                 </div>
                                 <div className={styles.goodGrid_details}>
@@ -59,6 +61,8 @@ class List extends React.Component {
                                 <div className={styles.goodGrid_tagWraper}>
                                     <p>{item.listTagWraper}</p>
                                 </div>
+                              </NavLink>
+                                
                             </li>
                           )
                         })

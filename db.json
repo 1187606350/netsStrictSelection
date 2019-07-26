@@ -474,44 +474,71 @@
       "swiUrl": "https://yanxuan.nosdn.127.net/3d087e9e13b33629355a9163e9d13ae7.jpg?imageView&quality=75&thumbnail=750x0"
     }
   ],
+  "swiperTwo": [
+    {
+      "swiImg": "https://yanxuan.nosdn.127.net/c64006aa3683db3819ce8cfbfc27a190.png?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiImg": "https://yanxuan.nosdn.127.net/0d2d343f32150114f3c1f86a44f2c7a9.png?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiImg": "https://yanxuan.nosdn.127.net/85a480bd9a852da923b8d3b5c7f7b759.png?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiImg": "https://yanxuan.nosdn.127.net/c0b7590147cb3f7ed8231249cdebf797.png?imageView&quality=75&thumbnail=750x0"
+    },
+    {
+      "swiImg": "https://yanxuan.nosdn.127.net/0d2d343f32150114f3c1f86a44f2c7a9.png?imageView&quality=75&thumbnail=750x0"
+    }
+  ],
   "list": [
     {
+      "listId": "1",
       "listName": "新品首发",
       "listUrl": "https://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"
     },
     {
+      "listId": "2",
       "listName": "居家生活",
       "listUrl": "https://yanxuan.nosdn.127.net/fede8b110c502ec5799702d5ec824792.png"
     },
     {
+      "listId": "3",
       "listName": "服装首饰",
       "listUrl": "https://yanxuan.nosdn.127.net/2415a74cea7d3f080c2dcaa791884572.png"
     },
     {
+      "listId": "4",
       "listName": "美食酒水",
       "listUrl": "https://yanxuan.nosdn.127.net/d916591adea776351e084016335e5820.png"
     },
     {
+      "listId": "5",
       "listName": "个人洗护",
       "listUrl": "https://yanxuan.nosdn.127.net/6c3bd9d885c818b1f73e497335a68b47.png"
     },
     {
+      "listId": "6",
       "listName": "母婴亲子",
       "listUrl": "https://yanxuan.nosdn.127.net/559d2a240ec20b096590a902217009ff.png"
     },
     {
+      "listId": "7",
       "listName": "运动旅游",
       "listUrl": "https://yanxuan.nosdn.127.net/5c088559ebcc3f0ffcda663f04dfbeb2.png"
     },
     {
+      "listId": "8",
       "listName": "数码家电",
       "listUrl": "https://yanxuan.nosdn.127.net/fbca8e1f2948f0c09fc7672c2c125384.png"
     },
     {
+      "listId": "9",
       "listName": "全球特色",
       "listUrl": "https://yanxuan.nosdn.127.net/f7281169d4e82d5d8d52aa1fec83fe01.png"
     },
     {
+      "listId": "10",
       "listName": "超级会员",
       "listUrl": "https://yanxuan.nosdn.127.net/3954c3cbeb4359dd7007be7a076e0dda.gif"
     }
