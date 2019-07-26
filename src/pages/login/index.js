@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './index.less';
 import { connect } from 'dva';
 import NavLink from 'umi/navlink';
-import { List, InputItem, Toast } from 'antd-mobile';
+import { List, InputItem } from 'antd-mobile';
 import Header from '../../components/Header';
 
 class Login extends React.Component {
@@ -14,7 +14,6 @@ class Login extends React.Component {
   onChangePw = value => {
     this.setState({
       password: value,
-
     });
   };
   onChangePhone = value => {
@@ -34,11 +33,9 @@ class Login extends React.Component {
           <List className={styles.form} renderHeader={() => ''}>
             <InputItem
               type="text"
-
               placeholder="请输入您的用户名"
               onChange={this.onChangePhone}
               value={this.state.username}
-
             />
           </List>
           <List className={styles.form} renderHeader={() => ''}>
@@ -52,7 +49,7 @@ class Login extends React.Component {
           <button
             disabled={this.handleDisabled()}
             onClick={() => {
-              this.props.handleLogin(this.state.username, this.state.password, this.props.history);
+              this.props.handleLogin(this.state.username, this.state.password, this.props);
             }}
             className={styles.button}
           >
@@ -65,6 +62,7 @@ class Login extends React.Component {
       </div>
     );
   }
+
   handleDisabled = () => {
     if (this.state.username && this.state.password) {
       return false;
@@ -80,7 +78,7 @@ export default connect(
       password: state.user.password,
     };
   },
-  dispatch => {
+  (dispatch, props) => {
     return {
       handleLogin: (username, password, router) => {
         console.log(username);
@@ -90,6 +88,7 @@ export default connect(
           password,
           router,
         });
+        //跳转到之前想去的页面
       },
     };
   },

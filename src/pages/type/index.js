@@ -4,11 +4,12 @@
 import { connect } from 'dva';
 import React from 'react';
 import styles from './index.less';
-import { Tabs, WhiteSpace } from 'antd-mobile';
 import NavLink from 'umi/navlink';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 class Type extends React.Component {
   render() {
-    const tabs = this.props.cateList;
+    let tabs = this.props.cateList;
     return (
       <div className={styles.p_cateList}>
         <div className={styles.hdWraper}>
@@ -26,69 +27,52 @@ class Type extends React.Component {
             </div>
           </div>
         </div>
-        <div className={styles.m_cateContainer}>
-          <div className={styles.m_cateContainer_list}>
-            <WhiteSpace />
-            <Tabs
-              tabs={tabs}
-              
-              tabBarPosition="left"
-              tabBarActiveTextColor="#ab2b2b"
-              onTabClick={() => {
-                this.props.getCateList();
-              }}
-              tabBarTextStyle={{
-                lineHeight: '50px',
-                width: '162px',
-                fontSize: '28px',
-                paddingTop: '20px',
-                paddingBottom: '20px',
-                color: '#000',
-              }}
-              renderTabBar={props => (
-                <Tabs.DefaultTabBar
-                  renderTab={tab => (
-                    <NavLink
-                      className={styles}
-                      to={`type?categoryId=${tab.secondLevelCategories.goodsTypeId}`}
-                    >
-                      {tab.activityName}
-                    </NavLink>
-                  )}
-                  {...props}
-                  page={12}
-                />
-              )}
-            >
+        <Tabs>
+          <div className={styles.m_cateContainer}>
+            <div className={styles.m_cateContainer_list}>
+              <TabList>
+                {tabs.map(item => {
+                  return (
+                    <Tab key={item.secondLevelCategories.goodsTypeId}>
+                      <NavLink to={`type?categoryId=${item.secondLevelCategories.goodsTypeId}`}>
+                        {item.activityName}
+                      </NavLink>
+                    </Tab>
+                  );
+                })}
+              </TabList>
+            </div>
+            <div className={styles.m_cateContainer_wrap}>
               {tabs.map(item => {
                 return (
-                  <div key={item.secondLevelCategories.goodsTypeId} className={styles.rightContent}>
-                    <img
-                      style={{ width: '528px', height: '192px' }}
-                      src={item.activityHtmlUrl ? item.activityHtmlUrl : ''}
-                      alt=""
-                    />
-                    {item.secondLevelCategories.goodsTypeList
-                      ? item.secondLevelCategories.goodsTypeList.map(item => {
-                          return (
-                            <div key={item.goodsTypeId} className={styles.rightContent_box}>
-                              <img src={item.goodsTypeImgUrl} alt="图片无法加载" />
-                              <span>{item.goodsTypeName}</span>
-                            </div>
-                          );
-                        })
-                      : ''}
-                  </div>
+                  <TabPanel>
+                    <div key={item.secondLevelCategories.goodsTypeId} className={this.rightContent}>
+                      <img
+                        style={{ width: '528px', height: '192px' }}
+                        src={item.activityHtmlUrl ? item.activityHtmlUrl : ''}
+                        alt=""
+                      />
+                      {item.secondLevelCategories.goodsTypeList
+                        ? item.secondLevelCategories.goodsTypeList.map(item => {
+                            return (
+                              <div key={item.goodsTypeId} className={styles.rightContent_box}>
+                                <img src={item.goodsTypeImgUrl} alt="图片无法加载" />
+                                <span>{item.goodsTypeName}</span>
+                              </div>
+                            );
+                          })
+                        : ''}
+                    </div>
+                  </TabPanel>
                 );
               })}
-            </Tabs>
-            <WhiteSpace />
+            </div>
           </div>
-        </div>
+        </Tabs>
       </div>
     );
   }
-  componentDidMount() {
+  componentWillMount() {
     this.props.getCateList();
   }
 }

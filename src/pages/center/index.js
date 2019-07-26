@@ -1,6 +1,14 @@
+
+
+/**
+ * Routes:
+ * - ./src/routes/checkLogin.js
+ */
+
 import React from 'react';
 import styles from './index.less';
 import { connect } from 'dva';
+
 class Center extends React.Component {
   render() {
     return (
@@ -95,6 +103,8 @@ class Center extends React.Component {
   }
   handleQuit = () => {
     window.localStorage.removeItem('username');
+    window.location.reload();
+
   };
 }
 export default connect(state => {

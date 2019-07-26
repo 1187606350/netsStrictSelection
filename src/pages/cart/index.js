@@ -155,7 +155,7 @@ class Cart extends React.Component {
               />
             </div>
             <div className={styles.cart_s}>去添加点什么吧</div>
-            <NavLink to="/login" className={styles.cart_logo}>
+            <NavLink to="/login?redirect=/cart" className={styles.cart_logo}>
               登录
             </NavLink>
           </div>
