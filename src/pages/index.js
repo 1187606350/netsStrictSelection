@@ -7,7 +7,7 @@ import React from 'react';
 import styles from './index.less';
 import TabExample from '../components/tabs';
 import Swiper from '../components/swiper';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { connect } from 'dva';
 
 class Home extends React.Component {
@@ -52,18 +52,24 @@ class Home extends React.Component {
             </ul>
             <div>
               <ul className={styles.lists}>
-                {lists.map(item => {
-                  return (
-                    <li className={styles.list} key={item.listName}>
-                      <Link to="/list">
-                        <div className={styles.list_img}>
-                          <img src={item.listUrl} alt=''/>
-                        </div>
-                        <div className={styles.list_type}>{item.listName}</div>
-                      </Link>
-                    </li>
-                  );
-                })}
+
+
+                {
+                  lists.map(item => {
+                    return (
+                        <li className={styles.list} key={item.listName}>
+                          <NavLink to="/list">
+                          <div className={styles.list_img}>
+                            <img src={item.listUrl} />
+                          </div>
+                          <div className={styles.list_type}>{item.listName}</div>
+                          </NavLink>
+                        </li>
+                    )
+                  })
+                }
+
+
               </ul>
             </div>
           </div>
@@ -123,7 +129,7 @@ class Home extends React.Component {
               {brands.map(item => {
                 return (
                   <li className={styles.moduleTitle_list_item} key={item.brandName}>
-                    <Link to="/list">
+                    <NavLink to="/list">
                       <div className={styles.cnt}>
                         <h4 className={styles.cnt_title}>{item.brandName}</h4>
                         <div className={styles.cnt_money}>
@@ -132,7 +138,7 @@ class Home extends React.Component {
                         </div>
                       </div>
                       <img className={styles.moduleTitle_list_img} src={item.brandImgUrl} alt="" />
-                    </Link>
+                    </NavLink>
                   </li>
                 );
               })}
@@ -170,12 +176,12 @@ class Home extends React.Component {
                 {sellLists.map(item => {
                   return (
                     <li className={styles.content_bot_li} key={item.sellListName}>
-                      <Link to="/list">
+                      <NavLink to="/list">
                         <div className={styles.content_bot_li_item}>{item.sellListName}</div>
                         <div className={styles.content_bot_li_img}>
                           <img src={item.sellListImg} alt="" />
                         </div>
-                      </Link>
+                      </NavLink>
                     </li>
                   );
                 })}
@@ -239,21 +245,30 @@ class Home extends React.Component {
             </div>
             <div className={styles.time}>
               <ul className={styles.time_ul}>
-                {limits.map(item => {
-                  return (
-                    <li className={styles.time_li} key={item.index}>
-                      <Link to="/list">
-                        <img src={item.limitTimeImg} className={styles.time_li_img} alt='' />
-                        <div>
-                          <span className={styles.time_spa}>
-                            <span className={styles.time_new}>￥{item.newPrice}</span>
-                            <span className={styles.time_old}>￥{item.oldPrice}</span>
-                          </span>
-                        </div>
-                      </Link>
-                    </li>
-                  );
-                })}
+
+
+                {
+                  limits.map(item => {
+                    return (
+                      <li className={styles.time_li} key={item.index}>
+                        <NavLink to="/list">
+                          <img
+                            src={item.limitTimeImg}
+                            className={styles.time_li_img}
+                          />
+                          <div>
+                            <span className={styles.time_spa}>
+                              <span className={styles.time_new}>￥{item.newPrice}</span>
+                              <span className={styles.time_old}>￥{item.oldPrice}</span>
+                            </span>
+                          </div>
+                        </NavLink>
+                      </li>
+                    )
+                  })
+                }
+               
+
               </ul>
             </div>
           </div>
@@ -268,7 +283,7 @@ class Home extends React.Component {
     this.props.getSellList();
     this.props.getPop();
     this.props.getLimit();
-    this.props.gethomeList();
+
   }
 }
 export default connect(
@@ -276,12 +291,13 @@ export default connect(
     return {
       lists: state.home.lists,
 
-      brands: state.home.brands,
-      sellLists: state.home.sellLists,
-      pops: state.home.pops,
-      limits: state.home.limits,
-      homeLists: state.list.homeLists,
-    };
+      brands:state.home.brands,
+      sellLists:state.home.sellLists,
+      pops:state.home.pops,
+      limits:state.home.limits,
+    }
+
+
   },
   dispatch => {
     return {
@@ -292,17 +308,19 @@ export default connect(
         dispatch({ type: 'home/getBrand' });
       },
       getSellList: () => {
-        dispatch({ type: 'home/getSellList' });
+
+        dispatch({ type: "home/getSellList" })
+
       },
       getPop: () => {
         dispatch({ type: 'home/getPop' });
       },
       getLimit: () => {
-        dispatch({ type: 'home/getLimit' });
-      },
-      gethomeList: () => {
-        dispatch({ type: 'list/gethomeList' });
-      },
-    };
-  },
+
+        dispatch({ type: "home/getLimit" })
+      }
+    }
+  }
+
+
 )(Home);

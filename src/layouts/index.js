@@ -24,6 +24,8 @@ export default props => {
     return <SimpleLayout {...props} />;
   } else if (props.location.pathname === '/search') {
     return <SimpleLayout {...props} />;
-  }
+  }  else if (props.location.pathname === '/purchase') {
+    return <SimpleLayout {...props} />;
+  } 
   return <BasicLayout {...props} />;
 };
