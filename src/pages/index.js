@@ -1,5 +1,7 @@
 /**
  * title: 首页
+ *
+ *
  */
 import React from 'react';
 import styles from './index.less';
@@ -21,9 +23,12 @@ class Home extends React.Component {
           <ul className={styles.topUl}>
             <li className={styles.logo} />
             <li className={styles.serach}>
-              <div className={styles.serachInp} onClick={() => {
-                this.props.history.push('/search')
-              }}>
+              <div
+                className={styles.serachInp}
+                onClick={() => {
+                  this.props.history.push('/search');
+                }}
+              >
                 搜索商品,共12377件商品
               </div>
             </li>
@@ -37,7 +42,7 @@ class Home extends React.Component {
         </div>
         <div className={styles.nav}>
           <div className={styles.swiper}>
-            <Swiper autoPlay={true}/>
+            <Swiper autoPlay={true} />
           </div>
           <div>
             <ul className={styles.grow}>
@@ -46,8 +51,8 @@ class Home extends React.Component {
               <li className={styles.grows}>48小时快速退款</li>
             </ul>
             <div>
-              
               <ul className={styles.lists}>
+
 
                 {
                   lists.map(item => {
@@ -63,6 +68,7 @@ class Home extends React.Component {
                     )
                   })
                 }
+
 
               </ul>
             </div>
@@ -212,27 +218,21 @@ class Home extends React.Component {
             </div>
             <div className={styles.sp_list}>
               <ul className={styles.sp_ul}>
-                {
-                  pops.map(item => {
-                    return (
-                      <li className={styles.sp_li} key={item.index}>
-                        <img
-                          src={item.popImg}
-                          className={styles.swiper_lazy}
-                        />
-                        <span className={styles.swiper_spa}>{item.popMake}</span>
-                        <span className={styles.swiper_name}>
-                          {item.popDetails}
-                          <span>¥{item.popPrice}</span>
-                        </span>
-                        <div className={styles.gradientPrice}>
-                          <span className={styles.gradientPrice_rmb}>{item.popCoupon}</span>
-                        </div>
-                      </li>
-                    )
-                  })
-                }
-
+                {pops.map(item => {
+                  return (
+                    <li className={styles.sp_li} key={item.index}>
+                      <img src={item.popImg} className={styles.swiper_lazy} alt='' />
+                      <span className={styles.swiper_spa}>{item.popMake}</span>
+                      <span className={styles.swiper_name}>
+                        {item.popDetails}
+                        <span>¥{item.popPrice}</span>
+                      </span>
+                      <div className={styles.gradientPrice}>
+                        <span className={styles.gradientPrice_rmb}>{item.popCoupon}</span>
+                      </div>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
             <div className={styles.moduleTitle}>
@@ -245,6 +245,7 @@ class Home extends React.Component {
             </div>
             <div className={styles.time}>
               <ul className={styles.time_ul}>
+
 
                 {
                   limits.map(item => {
@@ -267,6 +268,7 @@ class Home extends React.Component {
                   })
                 }
                
+
               </ul>
             </div>
           </div>
@@ -288,11 +290,13 @@ export default connect(
   state => {
     return {
       lists: state.home.lists,
+
       brands:state.home.brands,
       sellLists:state.home.sellLists,
       pops:state.home.pops,
       limits:state.home.limits,
     }
+
 
   },
   dispatch => {
@@ -304,16 +308,19 @@ export default connect(
         dispatch({ type: 'home/getBrand' });
       },
       getSellList: () => {
+
         dispatch({ type: "home/getSellList" })
+
       },
       getPop: () => {
-        dispatch({ type: "home/getPop" })
+        dispatch({ type: 'home/getPop' });
       },
       getLimit: () => {
+
         dispatch({ type: "home/getLimit" })
       }
     }
   }
 
-      
+
 )(Home);

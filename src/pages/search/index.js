@@ -66,11 +66,12 @@ class Search extends React.Component {
             <li className={styles.itemval}>888</li>
             <li className={styles.itemval}>999</li>
           </ul>
-
         </div>
       </div>
+
     )
     
+
   }
 }
 export default Search;

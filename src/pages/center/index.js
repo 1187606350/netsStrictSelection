@@ -1,9 +1,11 @@
 /**
- *
+ * Routes:
+ * - ./src/routes/checkLogin.js
  */
 import React from 'react';
 import styles from './index.less';
 import { connect } from 'dva';
+
 class Center extends React.Component {
   render() {
     return (
@@ -89,11 +91,17 @@ class Center extends React.Component {
               <p>意见反馈</p>
             </div>
           </div>
-          <button className={styles.bottom}>退出登录</button>
+          <button onClick={this.handleQuit} className={styles.bottom}>
+            退出登录
+          </button>
         </div>
       </div>
     );
   }
+  handleQuit = () => {
+    window.localStorage.removeItem('username');
+    window.location.reload();
+  };
 }
 export default connect(state => {
   return {
