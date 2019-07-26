@@ -96,7 +96,7 @@ const postLogin = (req, res) => {
         if (bingo) {
           res.send({
             code: 0,
-            msg: 'ok',
+            msg: '登录成功',
             data: {
               username: data.username,
             },

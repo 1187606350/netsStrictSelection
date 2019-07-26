@@ -20,12 +20,12 @@ export default {
         }),
       });
       let res = yield response.json();
-      console.log(res);
+      // console.log(res);
       if (res.code === 0) {
         Toast.info(res.msg);
         setTimeout(() => {
           action.router.push('/login');
-        }, 2000);
+        }, 1000);
       } else {
         Toast.info(res.msg, 2);
       }
@@ -42,11 +42,12 @@ export default {
         }),
       });
       let res = yield response.json();
-      console.log(res);
+      // console.log(res);
       if (res.code === 0) {
         window.localStorage.setItem('username', res.data.username);
         Toast.info(res.msg);
         setTimeout(() => {
+
           let redirect = action.router.location.search;
           redirect = redirect.replace('?', '');
           let arr = redirect.split('&');
@@ -61,6 +62,7 @@ export default {
       } else {
         Toast.info(res.msg, 2);
       }
+
 
       yield put({ type: 'setUser', add: res });
     },
