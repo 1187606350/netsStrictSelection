@@ -1,5 +1,7 @@
 /**
  * title: 首页
+ *
+ *
  */
 import React from 'react';
 import styles from './index.less';
@@ -15,16 +17,18 @@ class Home extends React.Component {
     let sellLists = this.props.sellLists;
     let pops = this.props.pops;
     let limits = this.props.limits;
-    let homeLists = this.props.homeLists;
     return (
       <div className={styles.container}>
         <div className={styles.top}>
           <ul className={styles.topUl}>
             <li className={styles.logo} />
             <li className={styles.serach}>
-              <div className={styles.serachInp} onClick={() => {
-                this.props.history.push('/search')
-              }}>
+              <div
+                className={styles.serachInp}
+                onClick={() => {
+                  this.props.history.push('/search');
+                }}
+              >
                 搜索商品,共12377件商品
               </div>
             </li>
@@ -38,7 +42,7 @@ class Home extends React.Component {
         </div>
         <div className={styles.nav}>
           <div className={styles.swiper}>
-            <Swiper autoPlay={true}/>
+            <Swiper autoPlay={true} />
           </div>
           <div>
             <ul className={styles.grow}>
@@ -47,24 +51,19 @@ class Home extends React.Component {
               <li className={styles.grows}>48小时快速退款</li>
             </ul>
             <div>
-              
               <ul className={styles.lists}>
-
-                {
-                  lists.map(item => {
-                    return (
-                        <li className={styles.list} key={item.listName}>
-                          <Link to="/list">
-                          <div className={styles.list_img}>
-                            <img src={item.listUrl} />
-                          </div>
-                          <div className={styles.list_type}>{item.listName}</div>
-                          </Link>
-                        </li>
-                    )
-                  })
-                }
-
+                {lists.map(item => {
+                  return (
+                    <li className={styles.list} key={item.listName}>
+                      <Link to="/list">
+                        <div className={styles.list_img}>
+                          <img src={item.listUrl} alt=''/>
+                        </div>
+                        <div className={styles.list_type}>{item.listName}</div>
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -213,27 +212,21 @@ class Home extends React.Component {
             </div>
             <div className={styles.sp_list}>
               <ul className={styles.sp_ul}>
-                {
-                  pops.map(item => {
-                    return (
-                      <li className={styles.sp_li} key={item.index}>
-                        <img
-                          src={item.popImg}
-                          className={styles.swiper_lazy}
-                        />
-                        <span className={styles.swiper_spa}>{item.popMake}</span>
-                        <span className={styles.swiper_name}>
-                          {item.popDetails}
-                          <span>¥{item.popPrice}</span>
-                        </span>
-                        <div className={styles.gradientPrice}>
-                          <span className={styles.gradientPrice_rmb}>{item.popCoupon}</span>
-                        </div>
-                      </li>
-                    )
-                  })
-                }
-
+                {pops.map(item => {
+                  return (
+                    <li className={styles.sp_li} key={item.index}>
+                      <img src={item.popImg} className={styles.swiper_lazy} alt='' />
+                      <span className={styles.swiper_spa}>{item.popMake}</span>
+                      <span className={styles.swiper_name}>
+                        {item.popDetails}
+                        <span>¥{item.popPrice}</span>
+                      </span>
+                      <div className={styles.gradientPrice}>
+                        <span className={styles.gradientPrice_rmb}>{item.popCoupon}</span>
+                      </div>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
             <div className={styles.moduleTitle}>
@@ -246,28 +239,21 @@ class Home extends React.Component {
             </div>
             <div className={styles.time}>
               <ul className={styles.time_ul}>
-
-                {
-                  limits.map(item => {
-                    return (
-                      <li className={styles.time_li} key={item.index}>
-                        <Link to="/list">
-                          <img
-                            src={item.limitTimeImg}
-                            className={styles.time_li_img}
-                          />
-                          <div>
-                            <span className={styles.time_spa}>
-                              <span className={styles.time_new}>￥{item.newPrice}</span>
-                              <span className={styles.time_old}>￥{item.oldPrice}</span>
-                            </span>
-                          </div>
-                        </Link>
-                      </li>
-                    )
-                  })
-                }
-               
+                {limits.map(item => {
+                  return (
+                    <li className={styles.time_li} key={item.index}>
+                      <Link to="/list">
+                        <img src={item.limitTimeImg} className={styles.time_li_img} alt='' />
+                        <div>
+                          <span className={styles.time_spa}>
+                            <span className={styles.time_new}>￥{item.newPrice}</span>
+                            <span className={styles.time_old}>￥{item.oldPrice}</span>
+                          </span>
+                        </div>
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -282,7 +268,7 @@ class Home extends React.Component {
     this.props.getSellList();
     this.props.getPop();
     this.props.getLimit();
-    this.props.gethomeList()
+    this.props.gethomeList();
   }
 }
 export default connect(
@@ -290,13 +276,12 @@ export default connect(
     return {
       lists: state.home.lists,
 
-      brands:state.home.brands,
-      sellLists:state.home.sellLists,
-      pops:state.home.pops,
-      limits:state.home.limits,
-      homeLists:state.list.homeLists
-    }
-
+      brands: state.home.brands,
+      sellLists: state.home.sellLists,
+      pops: state.home.pops,
+      limits: state.home.limits,
+      homeLists: state.list.homeLists,
+    };
   },
   dispatch => {
     return {
@@ -307,20 +292,17 @@ export default connect(
         dispatch({ type: 'home/getBrand' });
       },
       getSellList: () => {
-
-        dispatch({ type: "home/getSellList" })
+        dispatch({ type: 'home/getSellList' });
       },
       getPop: () => {
-        dispatch({ type: "home/getPop" })
+        dispatch({ type: 'home/getPop' });
       },
       getLimit: () => {
-        dispatch({ type: "home/getLimit" })
+        dispatch({ type: 'home/getLimit' });
       },
-      gethomeList: () =>{
-        dispatch({ type: "list/gethomeList" })
-      }
-    }
-  }
-
-      
+      gethomeList: () => {
+        dispatch({ type: 'list/gethomeList' });
+      },
+    };
+  },
 )(Home);
