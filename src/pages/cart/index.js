@@ -2,13 +2,17 @@ import React from 'react';
 import styles from './index.less';
 import NavLink from 'umi/navlink';
 import { connect } from 'dva';
+import { Toast } from 'antd-mobile';
 class Cart extends React.Component {
   state = {
-    value: 1,
-    price: 249,
+    totalPrice: 0,
+    totalGoods: 0,
+    goods: this.props.goods,
   };
+  componentDidMount() {
+    this.props.getGoods();
+  }
   render() {
-    let tatol = this.state.value * this.state.price;
     if (this.props.username) {
       return (
         <div className={styles.cart}>
@@ -21,95 +25,50 @@ class Cart extends React.Component {
           </div>
 
           <div className={styles.cart_main}>
-            <div className={styles.cart_goods}>
-              <label className={styles.label}>
-                <input type="checkbox" className={styles.checked} />
-              </label>
-              <div className={styles.goodsInfos}>
-                <img
-                  src="https://yanxuan.nosdn.127.net/1492b4168e38a97503621b560fa705f7.png?imageView&thumbnail=160x0&quality=75"
-                  alt=""
-                />
-                <div className={styles.goodsInfo}>
-                  <div className={styles.goodsline1}>户外露营野餐组合</div>
-                  <div className={styles.goodsline2}>
-                    <span>速开帐篷+野餐垫</span>
-                    <span />
-                  </div>
-                  <div className={styles.goodsline3}>
-                    <p className={styles.goodsPrice}>¥{this.state.price}</p>
-                    <div className={styles.num}>
-                      <button
-                        disabled={this.handleDisabled(this.state.value)}
-                        onClick={() => {
-                          this.handleDecrease(this.state.value);
-                        }}
-                      >
-                        -
-                      </button>
-                      <input
-                        type="text"
-                        value={this.state.value}
-                        onChange={this.handleValue}
-                        className={styles.goodsnum}
-                      />
-                      <button
-                        onClick={() => {
-                          this.handleAdd(this.state.value);
-                        }}
-                      >
-                        +
-                      </button>
+            {this.state.goods.map((item, index) => {
+              return (
+                <div className={styles.cart_goods} key={item.id} index={index}>
+                  <label className={styles.label}>
+                    <input type="checkbox" className={styles.checked} />
+                  </label>
+                  <div className={styles.goodsInfos}>
+                    <img src={item.img} alt="" />
+                    <div className={styles.goodsInfo}>
+                      <div className={styles.goodsline1}>{item.goodsName}</div>
+                      <div className={styles.goodsline2}>
+                        <span>{item.spec}</span>
+                        <span />
+                      </div>
+                      <div className={styles.goodsline3}>
+                        <p className={styles.goodsPrice}>¥{item.price}</p>
+                        <div className={styles.num}>
+                          <button
+                            onClick={() => {
+                              this.handleDecrease(index);
+                            }}
+                          >
+                            -
+                          </button>
+                          <input
+                            type="text"
+                            value={item.num}
+                            onChange={this.handleValue.bind(this, index)}
+                            className={styles.goodsnum}
+                          />
+                          <button
+                            onClick={() => {
+                              this.handleAdd(index);
+                            }}
+                          >
+                            +
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div className={styles.cart_goods}>
-              <label className={styles.label}>
-                <input type="checkbox" className={styles.checked} />
-              </label>
-              <div className={styles.goodsInfos}>
-                <img
-                  src="https://yanxuan.nosdn.127.net/1492b4168e38a97503621b560fa705f7.png?imageView&thumbnail=160x0&quality=75"
-                  alt=""
-                />
-                <div className={styles.goodsInfo}>
-                  <div className={styles.goodsline1}>户外露营野餐组合</div>
-                  <div className={styles.goodsline2}>
-                    <span>速开帐篷+野餐垫</span>
-                    <span />
-                  </div>
-                  <div className={styles.goodsline3}>
-                    <p className={styles.goodsPrice}>¥{this.state.price}</p>
-                    <div className={styles.num}>
-                      <button
-                        disabled={this.handleDisabled(this.state.value)}
-                        onClick={() => {
-                          this.handleDecrease(this.state.value);
-                        }}
-                      >
-                        -
-                      </button>
-                      <input
-                        type="text"
-                        value={this.state.value}
-                        onChange={this.handleValue}
-                        className={styles.goodsnum}
-                      />
-                      <button
-                        onClick={() => {
-                          this.handleAdd(this.state.value);
-                        }}
-                      >
-                        +
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
 
           <div className={styles.footer}>
@@ -118,12 +77,12 @@ class Cart extends React.Component {
                 <input type="checkbox" className={styles.checked} />
               </label>
               <p className={styles.count}>
-                已选(<span>4</span>)
+                已选(<span>{this.state.totalGoods}</span>)
               </p>
             </div>
             <div className={styles.right}>
               <p className={styles.total}>
-                合计: ¥<span>{tatol}</span>
+                合计: ¥<span>{this.state.totalPrice}</span>
               </p>
               <button className={styles.buy}>下单</button>
             </div>
@@ -164,32 +123,62 @@ class Cart extends React.Component {
     }
   }
 
-  handleValue = e => {
-    this.setState({
-      value: e.target.value,
-    });
-  };
-  handleDecrease = value => {
-    // console.log(value);
-    this.setState({
-      value: --value,
-    });
-  };
-  handleDisabled = value => {
-    if (value === 1) {
-      return true;
+  handleValue = (index, event) => {
+    let goods = this.state.goods;
+    let num = event.target.value;
+    if (num === '') {
+      Toast.info('数量不能为空');
     }
-    return false;
-  };
-  handleAdd = value => {
-    // console.log(value);
+    goods[index].num = num;
     this.setState({
-      value: ++value,
+      goods: goods,
     });
+    this.totalPrice();
   };
+
+  handleDecrease = index => {
+    let goods = this.state.goods;
+    goods[index].num -= 1;
+    goods[index].num = goods[index].num < 1 ? 1 : goods[index].num;
+    this.setState({
+      goods: goods,
+    });
+    this.totalPrice();
+  };
+
+  handleAdd = index => {
+    // console.log(value);
+    let goods = this.state.goods;
+    goods[index].num += 1;
+    this.setState({
+      goods: goods,
+    });
+    this.totalPrice();
+  };
+  totalPrice() {
+    let totalPrice = 316.5;
+    let goods = this.state.goods;
+    for (var i = 0; i < goods.length; i++) {
+      totalPrice += goods[i].price * goods[i].num;
+    }
+    this.setState({
+      totalPrice: totalPrice,
+    });
+  }
 }
-export default connect(state => {
-  return {
-    username: state.user.username,
-  };
-})(Cart);
+
+export default connect(
+  state => {
+    return {
+      username: state.user.username,
+      goods: state.goods.goods,
+    };
+  },
+  dispatch => {
+    return {
+      getGoods: () => {
+        dispatch({ type: 'goods/getGoods' });
+      },
+    };
+  },
+)(Cart);
