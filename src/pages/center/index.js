@@ -103,7 +103,11 @@ class Center extends React.Component {
     window.localStorage.removeItem('username');
     setTimeout(() => {
       window.location.reload();
+
     }, 2000);
+
+    });
+
   };
 }
 export default connect(state => {

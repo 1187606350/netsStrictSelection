@@ -52,24 +52,18 @@ class Home extends React.Component {
             </ul>
             <div>
               <ul className={styles.lists}>
-
-
-                {
-                  lists.map(item => {
-                    return (
-                        <li className={styles.list} key={item.listName}>
-                          <NavLink to="/list">
-                          <div className={styles.list_img}>
-                            <img src={item.listUrl} />
-                          </div>
-                          <div className={styles.list_type}>{item.listName}</div>
-                          </NavLink>
-                        </li>
-                    )
-                  })
-                }
-
-
+                {lists.map(item => {
+                  return (
+                    <li className={styles.list} key={item.listName}>
+                      <NavLink to="/list">
+                        <div className={styles.list_img}>
+                          <img src={item.listUrl} />
+                        </div>
+                        <div className={styles.list_type}>{item.listName}</div>
+                      </NavLink>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -221,7 +215,7 @@ class Home extends React.Component {
                 {pops.map(item => {
                   return (
                     <li className={styles.sp_li} key={item.index}>
-                      <img src={item.popImg} className={styles.swiper_lazy} alt='' />
+                      <img src={item.popImg} className={styles.swiper_lazy} alt="" />
                       <span className={styles.swiper_spa}>{item.popMake}</span>
                       <span className={styles.swiper_name}>
                         {item.popDetails}
@@ -245,30 +239,21 @@ class Home extends React.Component {
             </div>
             <div className={styles.time}>
               <ul className={styles.time_ul}>
-
-
-                {
-                  limits.map(item => {
-                    return (
-                      <li className={styles.time_li} key={item.index}>
-                        <NavLink to="/list">
-                          <img
-                            src={item.limitTimeImg}
-                            className={styles.time_li_img}
-                          />
-                          <div>
-                            <span className={styles.time_spa}>
-                              <span className={styles.time_new}>￥{item.newPrice}</span>
-                              <span className={styles.time_old}>￥{item.oldPrice}</span>
-                            </span>
-                          </div>
-                        </NavLink>
-                      </li>
-                    )
-                  })
-                }
-               
-
+                {limits.map(item => {
+                  return (
+                    <li className={styles.time_li} key={item.index}>
+                      <NavLink to="/list">
+                        <img src={item.limitTimeImg} className={styles.time_li_img} />
+                        <div>
+                          <span className={styles.time_spa}>
+                            <span className={styles.time_new}>￥{item.newPrice}</span>
+                            <span className={styles.time_old}>￥{item.oldPrice}</span>
+                          </span>
+                        </div>
+                      </NavLink>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -283,7 +268,6 @@ class Home extends React.Component {
     this.props.getSellList();
     this.props.getPop();
     this.props.getLimit();
-
   }
 }
 export default connect(
@@ -291,13 +275,11 @@ export default connect(
     return {
       lists: state.home.lists,
 
-      brands:state.home.brands,
-      sellLists:state.home.sellLists,
-      pops:state.home.pops,
-      limits:state.home.limits,
-    }
-
-
+      brands: state.home.brands,
+      sellLists: state.home.sellLists,
+      pops: state.home.pops,
+      limits: state.home.limits,
+    };
   },
   dispatch => {
     return {
@@ -308,19 +290,14 @@ export default connect(
         dispatch({ type: 'home/getBrand' });
       },
       getSellList: () => {
-
-        dispatch({ type: "home/getSellList" })
-
+        dispatch({ type: 'home/getSellList' });
       },
       getPop: () => {
         dispatch({ type: 'home/getPop' });
       },
       getLimit: () => {
-
-        dispatch({ type: "home/getLimit" })
-      }
-    }
-  }
-
-
+        dispatch({ type: 'home/getLimit' });
+      },
+    };
+  },
 )(Home);

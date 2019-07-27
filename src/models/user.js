@@ -47,7 +47,6 @@ export default {
         window.localStorage.setItem('username', res.data.username);
         Toast.info(res.msg);
         setTimeout(() => {
-
           let redirect = action.router.location.search;
           redirect = redirect.replace('?', '');
           let arr = redirect.split('&');
@@ -58,11 +57,10 @@ export default {
           });
           redirect = obj.redirect || '/center';
           action.router.history.replace(redirect);
-        }, 2000);
+        }, 1000);
       } else {
         Toast.info(res.msg, 2);
       }
-
 
       yield put({ type: 'setUser', add: res });
     },

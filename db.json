@@ -769,6 +769,42 @@
           }
         ]
       }
+
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "goodsName": "韩国制造 便携袋装代餐粉 25克*14袋",
+      "price": 79,
+      "spec": "绿茶味 一盒（25克*14袋）",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/c5c0eec6516f1efef9457a84836243fe.png?imageView&thumbnail=160x0&quality=75"
+    },
+    {
+      "id": 2,
+      "goodsName": "红豆薏米丸 100克",
+      "price": 39,
+      "spec": "100g",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/87a44dd2a21b6c29e0cf449096219a47.png?imageView&thumbnail=160x0&quality=75"
+    },
+    {
+      "id": 3,
+      "goodsName": "Yessing女式精棉撞色LogoT恤",
+      "price": 129,
+      "spec": "浅孔雀绿[水柔精棉]",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/ae0f9b179da0977a5e3cff843ed8a1a5.png?imageView&thumbnail=160x0&quality=75"
+    },
+    {
+      "id": 4,
+      "goodsName": "男/女复古金属飞行员墨镜",
+      "price": 69.5,
+      "spec": "偏光水银",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/b95458ceb91a441bf4fd665c27f5b310.png?imageView&thumbnail=160x0&quality=75"
+
     }
   ]
 }
