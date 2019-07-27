@@ -1,5 +1,3 @@
-
-
 /**
  * Routes:
  * - ./src/routes/checkLogin.js
@@ -103,8 +101,9 @@ class Center extends React.Component {
   }
   handleQuit = () => {
     window.localStorage.removeItem('username');
-    window.location.reload();
-
+    setTimeout(() => {
+      window.location.reload();
+    }, 2000);
   };
 }
 export default connect(state => {

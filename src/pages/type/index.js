@@ -8,6 +8,9 @@ import NavLink from 'umi/navlink';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 class Type extends React.Component {
+  state = {
+    tabIndex: 0,
+  };
   render() {
     let tabs = this.props.cateList;
     return (
@@ -27,7 +30,10 @@ class Type extends React.Component {
             </div>
           </div>
         </div>
-        <Tabs>
+        <Tabs
+          selectedIndex={this.state.tabIndex}
+          onSelect={tabIndex => this.setState({ tabIndex })}
+        >
           <div className={styles.m_cateContainer}>
             <div className={styles.m_cateContainer_list}>
               <TabList>
@@ -45,24 +51,29 @@ class Type extends React.Component {
             <div className={styles.m_cateContainer_wrap}>
               {tabs.map(item => {
                 return (
-                  <TabPanel>
-                    <div key={item.secondLevelCategories.goodsTypeId} className={this.rightContent}>
-                      <img
-                        style={{ width: '528px', height: '192px' }}
-                        src={item.activityHtmlUrl ? item.activityHtmlUrl : ''}
-                        alt=""
-                      />
-                      {item.secondLevelCategories.goodsTypeList
-                        ? item.secondLevelCategories.goodsTypeList.map(item => {
-                            return (
-                              <div key={item.goodsTypeId} className={styles.rightContent_box}>
-                                <img src={item.goodsTypeImgUrl} alt="图片无法加载" />
-                                <span>{item.goodsTypeName}</span>
-                              </div>
-                            );
-                          })
-                        : ''}
-                    </div>
+                  <TabPanel
+                    key={item.secondLevelCategories.goodsTypeId}
+                    className={styles.rightContent}
+                  >
+                    <img
+                      style={{ width: '528px', height: '192px' }}
+                      src={item.activityHtmlUrl ? item.activityHtmlUrl : ''}
+                      alt=""
+                    />
+                    {item.secondLevelCategories.goodsTypeList
+                      ? item.secondLevelCategories.goodsTypeList.map(item => {
+                          return (
+                            <div key={item.goodsTypeId} className={styles.rightContent_box}>
+                              <img
+                                style={{ width: '144px', height: '144px' }}
+                                src={item.goodsTypeImgUrl}
+                                alt="图片无法加载"
+                              />
+                              <span>{item.goodsTypeName}</span>
+                            </div>
+                          );
+                        })
+                      : ''}
                   </TabPanel>
                 );
               })}
