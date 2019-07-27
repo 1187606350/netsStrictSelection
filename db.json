@@ -58,7 +58,8 @@
         ],
         "goodsTypeId": "10000072",
         "goodsTypeUrl": "/category-cat10000070.html?from=1"
-      }
+      },
+      "goodsTypeId": "10000050"
     },
     {
       "activityName": "厨房卫浴",
@@ -100,7 +101,8 @@
         "goodsTypeName": "手机",
         "goodsTypeId": "10000073",
         "goodsTypeUrl": "/category-cat10000070.html?from=1"
-      }
+      },
+      "goodsTypeId": "10000051"
     },
     {
       "activityName": "生活电器",
@@ -142,10 +144,12 @@
         "goodsTypeName": "手机",
         "goodsTypeId": "10000074",
         "goodsTypeUrl": "/category-cat10000070.html?from=1"
-      }
+      },
+      "goodsTypeId": "10000052"
     },
     {
       "activityName": "手机数码",
+      "goodsTypeId": "10000053",
       "activityHtmlUrl": "http://gfs9.gomein.net.cn/wireless/T1uRVXB7C_1RCvBVdK_1125_347.jpg",
       "secondLevelCategories": {
         "goodsTypeList": [
@@ -187,6 +191,7 @@
     },
     {
       "activityName": "美妆个护",
+      "goodsTypeId": "10000054",
       "secondLevelCategories": {
         "goodsTypeList": [
           {
@@ -228,6 +233,7 @@
     },
     {
       "activityName": "母婴玩具",
+      "goodsTypeId": "10000055",
       "secondLevelCategories": {
         "goodsTypeList": [
           {
@@ -259,7 +265,7 @@
     },
     {
       "activityName": "营养保健",
-
+      "goodsTypeId": "10000056",
       "secondLevelCategories": {
         "goodsTypeList": [
           {
@@ -291,7 +297,7 @@
     },
     {
       "activityName": "服饰鞋帽",
-
+      "goodsTypeId": "10000057",
       "secondLevelCategories": {
         "goodsTypeList": [
           {
@@ -348,6 +354,7 @@
     },
     {
       "activityName": "家装建材",
+      "goodsTypeId": "10000058",
       "activityHtmlUrl": "http://gfs12.gomein.net.cn/wireless/T1h_KQBTK_1RCvBVdK_1125_347.jpg",
       "secondLevelCategories": {
         "goodsTypeList": [
@@ -405,6 +412,7 @@
     },
     {
       "activityName": "住宅家具",
+      "goodsTypeId": "10000059",
       "activityHtmlUrl": "http://gfs11.gomein.net.cn/wireless/T19NZXB_WT1RCvBVdK_1125_347.jpg",
       "secondLevelCategories": {
         "goodsTypeList": [
@@ -761,6 +769,7 @@
           }
         ]
       }
+
     }
   ],
   "goods": [
@@ -795,6 +804,7 @@
       "spec": "偏光水银",
       "num": 1,
       "img": "https://yanxuan.nosdn.127.net/b95458ceb91a441bf4fd665c27f5b310.png?imageView&thumbnail=160x0&quality=75"
+
     }
   ]
 }
