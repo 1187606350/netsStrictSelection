@@ -83,7 +83,7 @@ class Type extends React.Component {
       </div>
     );
   }
-  componentWillMount() {
+  componentDidMount() {
     this.props.getCateList();
   }
 }
