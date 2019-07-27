@@ -10,12 +10,12 @@ export default {
       let response = yield fetch('http://localhost:3000/goods');
       let res = yield response.json();
 
-      yield put({ type: 'setgoods', goods: res });
+      yield put({ type: 'setGoods', goods: res });
     },
-    reducers: {
-      setgoods(state, action) {
-        return { ...state, ...{ goods: action.goods } };
-      },
+  },
+  reducers: {
+    setGoods(state, action) {
+      return Object.assign({}, state, { goods: action.goods });
     },
   },
 };

@@ -9,10 +9,9 @@ class Cart extends React.Component {
     totalGoods: 0,
     goods: this.props.goods,
   };
-  componentDidMount() {
-    this.props.getGoods();
-  }
+
   render() {
+
     if (this.props.username) {
       return (
         <div className={styles.cart}>
@@ -122,7 +121,9 @@ class Cart extends React.Component {
       );
     }
   }
-
+  componentDidMount() {
+    this.props.getGoods();
+  }
   handleValue = (index, event) => {
     let goods = this.state.goods;
     let num = event.target.value;
@@ -155,7 +156,7 @@ class Cart extends React.Component {
     });
     this.totalPrice();
   };
-  totalPrice() {
+  totalPrice = () => {
     let totalPrice = 316.5;
     let goods = this.state.goods;
     for (var i = 0; i < goods.length; i++) {
@@ -164,14 +165,14 @@ class Cart extends React.Component {
     this.setState({
       totalPrice: totalPrice,
     });
-  }
+  };
 }
 
 export default connect(
   state => {
     return {
-      username: state.user.username,
       goods: state.goods.goods,
+      username: state.user.username,
     };
   },
   dispatch => {
