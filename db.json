@@ -602,64 +602,64 @@
   "pop": [
     {
       "popDetails": "日本制造 头皮护理发根滋养...",
-      "popPrice":"79",
-      "popCoupon":"好货内部价",
-      "popMake":"日本制造",
+      "popPrice": "79",
+      "popCoupon": "好货内部价",
+      "popMake": "日本制造",
       "popImg": "https://yanxuan.nosdn.127.net/630db6838c0cce666f7641469275a0ab.png?imageView&quality=65&thumbnail=330x330"
     },
     {
       "popDetails": "“树上长的水”椰子水 33...",
-      "popPrice":"98",
-      "popCoupon":"超值价",
-      "popMake":"马来西亚直米",
+      "popPrice": "98",
+      "popCoupon": "超值价",
+      "popMake": "马来西亚直米",
       "popImg": "https://yanxuan.nosdn.127.net/bd2842f9eda908dae2d71f980eeb282e.png?imageView&quality=65&thumbnail=330x330"
     },
     {
       "popDetails": "男式无缝休闲运动T恤",
-      "popPrice":"49.9",
-      "popCoupon":"超值价",
-      "popMake":"四色可选",
+      "popPrice": "49.9",
+      "popCoupon": "超值价",
+      "popMake": "四色可选",
       "popImg": "https://yanxuan.nosdn.127.net/35dcfb65d0c065902c404e429ab7fb36.png?imageView&quality=65&thumbnail=330x330"
     }
   ],
   "limitTime": [
     {
-      "limitTimeImg":"https://yanxuan.nosdn.127.net/143b6cc32395583d02526d881aeddf76.png?imageView&thumbnail=216x216&quality=75",
-      "newPrice":"349",
-      "oldPrice":"428"
+      "limitTimeImg": "https://yanxuan.nosdn.127.net/143b6cc32395583d02526d881aeddf76.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice": "349",
+      "oldPrice": "428"
     },
     {
-      "limitTimeImg":"https://yanxuan.nosdn.127.net/5800035cda4787b4bf8d8da8c151bdc2.png?imageView&thumbnail=216x216&quality=75",
-      "newPrice":"58",
-      "oldPrice":"68"
+      "limitTimeImg": "https://yanxuan.nosdn.127.net/5800035cda4787b4bf8d8da8c151bdc2.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice": "58",
+      "oldPrice": "68"
     },
     {
-      "limitTimeImg":"https://yanxuan.nosdn.127.net/626d0f4bd373f92b40f895301fa009e8.png?imageView&thumbnail=216x216&quality=75",
-      "newPrice":"39.2",
-      "oldPrice":"49"
+      "limitTimeImg": "https://yanxuan.nosdn.127.net/626d0f4bd373f92b40f895301fa009e8.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice": "39.2",
+      "oldPrice": "49"
     },
     {
-      "limitTimeImg":"https://yanxuan.nosdn.127.net/391c5e3649d26006fa4ee2ceada10b6a.png?imageView&thumbnail=216x216&quality=75",
-      "newPrice":"39",
-      "oldPrice":"49"
+      "limitTimeImg": "https://yanxuan.nosdn.127.net/391c5e3649d26006fa4ee2ceada10b6a.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice": "39",
+      "oldPrice": "49"
     },
     {
-      "limitTimeImg":"https://yanxuan.nosdn.127.net/cd3ff27cf9e188a99721cb55ad69ba93.png?imageView&thumbnail=216x216&quality=75",
-      "newPrice":"49.7",
-      "oldPrice":"60"
+      "limitTimeImg": "https://yanxuan.nosdn.127.net/cd3ff27cf9e188a99721cb55ad69ba93.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice": "49.7",
+      "oldPrice": "60"
     },
     {
-      "limitTimeImg":"https://yanxuan.nosdn.127.net/5e55d8b3475eeabc798ad66882e52518.png?imageView&thumbnail=216x216&quality=75",
-      "newPrice":"105",
-      "oldPrice":"139"
+      "limitTimeImg": "https://yanxuan.nosdn.127.net/5e55d8b3475eeabc798ad66882e52518.png?imageView&thumbnail=216x216&quality=75",
+      "newPrice": "105",
+      "oldPrice": "139"
     }
   ],
-  "lists":[
+  "lists": [
     {
       "listType": "居家生活",
       "listTypeId": "1",
       "goodHomeList": {
-        "homeList":[
+        "homeList": [
           {
             "listDetails": "可裸睡针织棉，植物抗菌柔弹",
             "listName": "全棉针织条纹大豆纤维夏被 可机洗",
@@ -717,13 +717,13 @@
             "listImg": "https://yanxuan.nosdn.127.net/fc31b8353351b64edf6933e0e5864b83.png?imageView&quality=65&thumbnail=330x330"
           }
         ]
-      }  
+      }
     },
     {
       "listType": "服饰鞋包",
       "listTypeId": "2",
       "goodHomeList": {
-        "homeList":[
+        "homeList": [
           {
             "listDetails": "HUGO BOSS制造商出品",
             "listName": "男/女复古金属飞行员墨镜",
@@ -760,7 +760,41 @@
             "listImg": "https://yanxuan.nosdn.127.net/79640de310cc786d2101efa5c3c6096a.png?imageView&quality=65&thumbnail=330x330"
           }
         ]
-      }  
+      }
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "goodsName": "韩国制造 便携袋装代餐粉 25克*14袋",
+      "price": 79,
+      "spec": "绿茶味 一盒（25克*14袋）",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/c5c0eec6516f1efef9457a84836243fe.png?imageView&thumbnail=160x0&quality=75"
+    },
+    {
+      "id": 2,
+      "goodsName": "红豆薏米丸 100克",
+      "price": 39,
+      "spec": "100g",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/87a44dd2a21b6c29e0cf449096219a47.png?imageView&thumbnail=160x0&quality=75"
+    },
+    {
+      "id": 3,
+      "goodsName": "Yessing女式精棉撞色LogoT恤",
+      "price": 129,
+      "spec": "浅孔雀绿[水柔精棉]",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/ae0f9b179da0977a5e3cff843ed8a1a5.png?imageView&thumbnail=160x0&quality=75"
+    },
+    {
+      "id": 4,
+      "goodsName": "男/女复古金属飞行员墨镜",
+      "price": 69.5,
+      "spec": "偏光水银",
+      "num": 1,
+      "img": "https://yanxuan.nosdn.127.net/b95458ceb91a441bf4fd665c27f5b310.png?imageView&thumbnail=160x0&quality=75"
     }
   ]
 }
